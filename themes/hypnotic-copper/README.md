@@ -82,11 +82,13 @@ The syntax palette intentionally remains restrained:
 
 ### Hypnotic Copper Metal
 
-> *Add screenshot*
+![Hypnotic Copper Metal](images/vscode-screenshot-metal-py.png)
+![Hypnotic Copper Metal](images/vscode-screenshot-metal-cpp.png)
 
 ### Hypnotic Copper Dark
 
-> *Add screenshot*
+![Hypnotic Copper Dark](images/vscode-screenshot-dark-py.png)
+![Hypnotic Copper Dark](images/vscode-screenshot-dark-cpp.png)
 
 ## Feedback
 
