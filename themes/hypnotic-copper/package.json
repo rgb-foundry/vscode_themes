@@ -2,7 +2,7 @@
     "name": "hypnotic-copper",
     "displayName": "Hypnotic Copper",
     "description": "A handcrafted pair of elegant VS Code themes with a brushed metal aesthetic and warm copper accents.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "publisher": "rgb-foundry",
     "license": "MIT",
     "repository": {
@@ -47,5 +47,9 @@
                 "path": "./themes/hypnotic-copper-dark.json"
             }
         ]
+    },
+    "vsce": {
+    "baseImagesUrl": "https://github.com/rgb-foundry/vscode_themes/raw/main/themes/hypnotic-copper",
+    "baseContentUrl": "https://github.com/rgb-foundry/vscode_themes/blob/main/themes/hypnotic-copper"
     }
 }

@@ -2,6 +2,12 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.0.2] - 2026-07-11
+
+### Added
+
+- Fixed screenshot URLs
+
 ## [1.0.1] - 2026-07-11
 
 ### Added
