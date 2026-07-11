@@ -1,0 +1,52 @@
+{
+    "name": "hypnotic-copper",
+    "displayName": "Hypnotic Copper",
+    "description": "A pair of elegant VS Code themes featuring a brushed metal aesthetic with warm copper accents. Includes Metal, a cool silver theme inspired by machined aluminum, and Dark, a refined charcoal variant with the same restrained copper palette.",
+    "version": "1.0.0",
+    "publisher": "rgb-foundry",
+    "license": "MIT",
+    "repository": {
+    "type": "git",
+    "url": "https://github.com/rgb-foundry/vscode-themes.git"
+    },
+    "homepage": "https://github.com/rgb-foundry/vscode-themes",
+    "bugs": {
+    "url": "https://github.com/rgb-foundry/vscode-themes/issues"
+    },
+    "keywords": [
+        "theme",
+        "themes",
+        "color theme",
+        "dark theme",
+        "light theme",
+        "metal",
+        "copper",
+        "minimal",
+        "syntax highlighting"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#9E4C3B",
+        "theme": "dark"
+    },
+    "engines": {
+        "vscode": "^1.125.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Hypnotic Copper Metal",
+                "uiTheme": "vs",
+                "path": "./themes/hypnotic-copper-metal.json"
+            },
+            {
+                "label": "Hypnotic Copper Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/hypnotic-copper-dark.json"
+            }
+        ]
+    }
+}

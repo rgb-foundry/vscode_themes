@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+**/.DS_Store
+
+# VS Code
+.vscode/
+
+# Node
+node_modules/
+
+# VSIX packages
+*.vsix
+
+# npm
+npm-debug.log*
