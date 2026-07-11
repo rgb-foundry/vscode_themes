@@ -7,11 +7,11 @@
     "license": "MIT",
     "repository": {
     "type": "git",
-    "url": "https://github.com/rgb-foundry/vscode-themes.git"
+    "url": "https://github.com/rgb-foundry/vscode_themes.git"
     },
-    "homepage": "https://github.com/rgb-foundry/vscode-themes",
+    "homepage": "https://github.com/rgb-foundry/vscode_themes",
     "bugs": {
-    "url": "https://github.com/rgb-foundry/vscode-themes/issues"
+    "url": "https://github.com/rgb-foundry/vscode_themes/issues"
     },
     "keywords": [
         "theme",
