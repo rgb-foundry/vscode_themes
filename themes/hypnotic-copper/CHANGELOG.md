@@ -2,6 +2,18 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.0.3] - 2026-07-12
+
+### Added
+
+- Expanded semantic token color coverage for standard VS Code semantic token types.
+- Added explicit semantic rules for platform-sensitive token families so equivalent symbols render consistently across language servers.
+
+### Changed
+
+- Aligned related semantic token colors for functions and methods, type-like symbols, value-like symbols, and enum-like symbols.
+- Harmonized remote status bar item backgrounds with the copper status bar palette while preserving strong foreground contrast.
+
 ## [1.0.2] - 2026-07-11
 
 ### Added

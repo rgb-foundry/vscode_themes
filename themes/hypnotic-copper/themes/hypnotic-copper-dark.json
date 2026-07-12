@@ -213,7 +213,7 @@
         "statusBarItem.hoverForeground": "#FFFFFF",
         "statusBarItem.activeBackground": "#FFFFFF32",
 
-        "statusBarItem.remoteBackground": "#755249",
+        "statusBarItem.remoteBackground": "#6E352B",
         "statusBarItem.remoteForeground": "#FFF8F4",
         "statusBarItem.remoteHoverBackground": "#8C6257",
         "statusBarItem.remoteHoverForeground": "#FFFFFF",
@@ -453,41 +453,6 @@
     "semanticHighlighting": true,
 
     "semanticTokenColors": {
-        "variable": {
-            "foreground": "#D6D3CF",
-            "fontStyle": ""
-        },
-
-        "variable.readonly": {
-            "foreground": "#83AFC9",
-            "fontStyle": ""
-        },
-
-        "variable.defaultLibrary": {
-            "foreground": "#8AB7CC",
-            "fontStyle": ""
-        },
-
-        "parameter": {
-            "foreground": "#BBC4CC",
-            "fontStyle": ""
-        },
-
-        "property": {
-            "foreground": "#D1CCC8",
-            "fontStyle": ""
-        },
-
-        "property.readonly": {
-            "foreground": "#83AFC9",
-            "fontStyle": ""
-        },
-
-        "enumMember": {
-            "foreground": "#D69A59",
-            "fontStyle": ""
-        },
-
         "namespace": {
             "foreground": "#83AFC9",
             "fontStyle": ""
@@ -499,16 +464,11 @@
         },
 
         "interface": {
-            "foreground": "#C2ABCB",
+            "foreground": "#B8A0C3",
             "fontStyle": ""
         },
 
         "struct": {
-            "foreground": "#AE96BA",
-            "fontStyle": ""
-        },
-
-        "enum": {
             "foreground": "#B8A0C3",
             "fontStyle": ""
         },
@@ -523,28 +483,68 @@
             "fontStyle": ""
         },
 
+        "enum": {
+            "foreground": "#D69A59",
+            "fontStyle": ""
+        },
+
+        "enumMember": {
+            "foreground": "#D69A59",
+            "fontStyle": ""
+        },
+
+        "parameter": {
+            "foreground": "#D6D3CF",
+            "fontStyle": ""
+        },
+
+        "variable": {
+            "foreground": "#D6D3CF",
+            "fontStyle": ""
+        },
+
+        "variable.readonly": {
+            "foreground": "#83AFC9",
+            "fontStyle": ""
+        },
+
+        "variable.defaultLibrary": {
+            "foreground": "#D6D3CF",
+            "fontStyle": ""
+        },
+
+        "property": {
+            "foreground": "#D6D3CF",
+            "fontStyle": ""
+        },
+
+        "property.readonly": {
+            "foreground": "#83AFC9",
+            "fontStyle": ""
+        },
+
         "function": {
             "foreground": "#70B8C4",
             "fontStyle": ""
         },
 
         "function.defaultLibrary": {
-            "foreground": "#60AAB7",
+            "foreground": "#70B8C4",
             "fontStyle": ""
         },
 
         "method": {
-            "foreground": "#82C3CC",
+            "foreground": "#70B8C4",
             "fontStyle": ""
         },
 
         "method.defaultLibrary": {
-            "foreground": "#72B3BE",
+            "foreground": "#70B8C4",
             "fontStyle": ""
         },
 
         "macro": {
-            "foreground": "#c83e22",
+            "foreground": "#C83E22",
             "fontStyle": ""
         },
 
@@ -554,7 +554,7 @@
         },
 
         "event": {
-            "foreground": "#C58DA8",
+            "foreground": "#83AFC9",
             "fontStyle": ""
         },
 
@@ -563,13 +563,13 @@
             "fontStyle": ""
         },
 
-        "regexp": {
-            "foreground": "#A9C58D",
+        "comment": {
+            "foreground": "#87929D",
             "fontStyle": ""
         },
 
-        "operator": {
-            "foreground": "#C9C5C1",
+        "string": {
+            "foreground": "#A9C58D",
             "fontStyle": ""
         },
 
@@ -583,13 +583,13 @@
             "fontStyle": ""
         },
 
-        "string": {
+        "regexp": {
             "foreground": "#A9C58D",
             "fontStyle": ""
         },
 
-        "comment": {
-            "foreground": "#87929D",
+        "operator": {
+            "foreground": "#C9C5C1",
             "fontStyle": ""
         }
     }
