@@ -1,12 +1,16 @@
 # Hypnotic Copper
 
-**Hypnotic Copper** is a family of carefully crafted Visual Studio Code themes inspired by brushed metal finishes, graphite steel, crisp light surfaces, and copper accents.
+**Hypnotic Copper** is a family of carefully crafted Visual Studio Code themes with Metal, Glow, and Dark variants shaped by readable contrast and warm copper accents.
 
-Rather than relying on highly saturated rainbow syntax highlighting, Hypnotic Copper emphasizes readability through restrained color usage, semantic highlighting, and a cohesive industrial palette. The result is a calm editing experience designed for long coding sessions.
+Rather than relying on highly saturated rainbow syntax highlighting, Hypnotic Copper emphasizes readability through restrained color usage, semantic highlighting, and a cohesive palette. The result is a calm editing experience designed for long coding sessions.
 
 ## Why Hypnotic Copper?
 
-Most themes are inspired by paper, neon terminals, or flat monochrome palettes. Hypnotic Copper takes a different approach: it is inspired by industrial materials and precise finishes: brushed aluminum, graphite steel, clean white glass, copper, brass, and bronze. The result is a calm, cohesive workspace where color supports readability instead of competing for attention.
+Hypnotic Copper started as an attempt to make copper accents feel useful rather than decorative. The themes share the same basic vocabulary across three surfaces: brushed metal, crisp white, and graphite dark. Metal keeps a cool machined feel, Glow keeps the editor and terminal bright, and Dark keeps the contrast comfortable in lower light.
+
+The goal is modest: keep the workspace calm, make syntax and semantic colors easy to scan, and let terminal tools preserve their own signal colors. Copper is used as an accent for focus, selection, and identity rather than as a blanket tint.
+
+It is still a theme in motion, learning its own balance as the three variants settle into their roles. That is part of the point: each release tries to make the palette a little clearer, calmer, and more useful.
 
 ## Themes
 
@@ -94,6 +98,11 @@ The syntax palette intentionally remains restrained:
    * **Hypnotic Copper Dark**
 
 ## Screenshots
+
+### Hypnotic Copper Glow
+
+![Hypnotic Copper Glow](images/vscode-screenshot-glow-py.png)
+![Hypnotic Copper Glow](images/vscode-screenshot-glow-cpp.png)
 
 ### Hypnotic Copper Metal
 

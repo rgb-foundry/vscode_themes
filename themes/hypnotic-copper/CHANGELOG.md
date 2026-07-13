@@ -2,6 +2,16 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.1.1] - 2026-07-13
+
+### Added
+
+- Added screenshots for **Hypnotic Copper Glow**.
+
+### Changed
+
+- Refined README wording for the current Metal, Glow, and Dark lineup.
+
 ## [1.1.0] - 2026-07-13
 
 ### Added
