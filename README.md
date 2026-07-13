@@ -6,8 +6,7 @@ A curated collection of handcrafted Visual Studio Code themes.
 
 | Theme | Description |
 |--------|-------------|
-| Hypnotic Copper | Warm, copper-inspired dark theme focused on readability.
-
+| Hypnotic Copper | Elegant copper-inspired Metal, Glow, and Dark themes with consistent readability across light and dark surfaces. |
 
 ## Philosophy
 

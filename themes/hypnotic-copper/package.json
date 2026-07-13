@@ -1,8 +1,8 @@
 {
     "name": "hypnotic-copper",
     "displayName": "Hypnotic Copper",
-    "description": "A handcrafted pair of elegant VS Code themes with a brushed metal aesthetic and warm copper accents.",
-    "version": "1.0.3",
+    "description": "A handcrafted family of elegant VS Code themes with brushed metal, graphite, crisp light surfaces, and warm copper accents.",
+    "version": "1.1.0",
     "publisher": "rgb-foundry",
     "license": "MIT",
     "repository": {
@@ -16,8 +16,10 @@
     "keywords": [
     "theme",
     "dark theme",
+    "light theme",
     "metal",
     "copper",
+    "glow",
     "aluminum",
     "minimal",
     "elegant",
@@ -36,6 +38,11 @@
     ],
     "contributes": {
         "themes": [
+            {
+                "label": "Hypnotic Copper Glow",
+                "uiTheme": "vs",
+                "path": "./themes/hypnotic-copper-glow.json"
+            },
             {
                 "label": "Hypnotic Copper Metal",
                 "uiTheme": "vs",

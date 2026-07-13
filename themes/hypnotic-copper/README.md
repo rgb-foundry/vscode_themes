@@ -1,12 +1,12 @@
 # Hypnotic Copper
 
-**Hypnotic Copper** is a pair of carefully crafted Visual Studio Code themes inspired by brushed metal finishes, graphite steel, and warm copper accents.
+**Hypnotic Copper** is a family of carefully crafted Visual Studio Code themes inspired by brushed metal finishes, graphite steel, crisp light surfaces, and copper accents.
 
 Rather than relying on highly saturated rainbow syntax highlighting, Hypnotic Copper emphasizes readability through restrained color usage, semantic highlighting, and a cohesive industrial palette. The result is a calm editing experience designed for long coding sessions.
 
 ## Why Hypnotic Copper?
 
-Most themes are inspired by paper (light themes) or neon terminals (dark themes). Hypnotic Copper takes a different approach: it is inspired by industrial materials—brushed aluminum, graphite steel, copper, brass, and bronze. The result is a calm, cohesive workspace where color supports readability instead of competing for attention.
+Most themes are inspired by paper, neon terminals, or flat monochrome palettes. Hypnotic Copper takes a different approach: it is inspired by industrial materials and precise finishes: brushed aluminum, graphite steel, clean white glass, copper, brass, and bronze. The result is a calm, cohesive workspace where color supports readability instead of competing for attention.
 
 ## Themes
 
@@ -19,12 +19,24 @@ A brushed silver theme inspired by machined aluminum.
 * Calm, balanced syntax highlighting
 * Designed for bright environments without the harshness of traditional light themes
 
+### Hypnotic Copper Glow
+
+A crisp white light theme with the contrast language of Hypnotic Copper Dark.
+
+* White editor and terminal surfaces
+* Off-white workbench structure for subtle separation
+* Copper accents based on `#9E4C3B`, `#CC7C5E`, and `#D97757`
+* Selectively darkened foregrounds for light-background readability
+* Targeted Python and C++ token refinements
+* Native terminal ANSI colors for clearer command-line signal
+
 ### Hypnotic Copper Dark
 
 A charcoal and graphite variant that preserves the same visual identity.
 
 * Deep graphite editor and workbench
 * Warm copper highlights throughout the interface
+* Native terminal ANSI colors for build tools and shell output
 * Carefully balanced syntax colors for excellent readability
 * Comfortable for extended coding sessions
 
@@ -55,13 +67,15 @@ The syntax palette intentionally remains restrained:
 
 ## Features
 
-* ✓ Metal and Dark variants
+* ✓ Metal, Glow, and Dark variants
 * ✓ Semantic highlighting
 * ✓ Carefully tuned workbench colors
 * ✓ Refined GitLens integration
 * ✓ Improved hover widgets
 * ✓ Copper-inspired bracket pair highlighting
-* ✓ Refined terminal colors and ANSI palette
+* ✓ Terminal styling that preserves native ANSI signal colors
+* ✓ Consistent theme color keys across variants
+* ✓ Targeted Python and C++ token refinements
 * ✓ Dark terminal and editor tooltips
 * ✓ Consistent Source Control and Activity Bar styling
 * ✓ No italics
@@ -76,6 +90,7 @@ The syntax palette intentionally remains restrained:
 5. Choose one of the following:
 
    * **Hypnotic Copper Metal**
+   * **Hypnotic Copper Glow**
    * **Hypnotic Copper Dark**
 
 ## Screenshots

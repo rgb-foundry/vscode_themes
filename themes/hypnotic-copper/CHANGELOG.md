@@ -2,6 +2,20 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.1.0] - 2026-07-13
+
+### Added
+
+- Added **Hypnotic Copper Glow**, a crisp white light theme built from the Dark variant's contrast language and copper identity.
+
+### Changed
+
+- Removed dark theme terminal ANSI overrides so build tools and shells keep their native signal colors.
+- Reworked dark theme remote status bar colors with a deeper copper treatment and a brighter copper hover state.
+- Promoted the signature copper accent into more dark theme selection and badge surfaces while preserving readable foreground contrast.
+- Aligned color keys, token rule names, and semantic token keys across all three theme files.
+- Added targeted Python and C++ token refinements for stronger light-theme contrast.
+
 ## [1.0.3] - 2026-07-12
 
 ### Added
