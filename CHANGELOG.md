@@ -2,6 +2,12 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.2.2] - 2026-08-05
+
+### Fixed
+
+- Improved ignored Git resource readability across all three variants.
+
 ## [1.2.1] - 2026-08-05
 
 ### Added
