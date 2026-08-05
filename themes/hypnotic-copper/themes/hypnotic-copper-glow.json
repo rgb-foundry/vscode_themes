@@ -510,6 +510,7 @@
         "statusBar.noFolderBorder": "#555A61",
         "statusBar.noFolderForeground": "#FFFFFF",
         "statusBarItem.activeBackground": "#FFFFFF32",
+        "statusBarItem.compactHoverBackground": "#7C3F31",
         "statusBarItem.errorBackground": "#FFFFFF",
         "statusBarItem.errorForeground": "#B42318",
         "statusBarItem.focusBorder": "#8A8F98",

@@ -21,6 +21,7 @@ A cool metallic theme inspired by machined aluminum and softly tinted blue-gray 
 * Soft blue-gray editor and workbench surfaces
 * Deep navy primary text with clear secondary foregrounds
 * Warm copper accents for keywords, active UI elements, and modified resources
+* Copper-accented list, input, scrollbar, and status-bar interactions
 * Blue focus and information colors that remain distinct from copper emphasis
 * Calm, balanced syntax highlighting with readable contrast
 * Designed for bright environments without the harshness of traditional light themes
@@ -80,6 +81,7 @@ The syntax palette intentionally remains restrained:
 * ✓ Refined GitLens integration
 * ✓ Improved hover widgets
 * ✓ Copper-inspired bracket pair highlighting
+* ✓ Copper-aware status bar, remote indicator, and compact-item hover states
 * ✓ Terminal styling that preserves native ANSI signal colors
 * ✓ Consistent theme color keys across variants
 * ✓ Targeted Python and C++ token refinements

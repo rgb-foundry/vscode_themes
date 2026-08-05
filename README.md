@@ -6,7 +6,7 @@ A curated collection of handcrafted Visual Studio Code themes.
 
 | Theme | Description |
 |--------|-------------|
-| [Hypnotic Copper](themes/hypnotic-copper/) | Copper-inspired Metal, Glow, and Dark themes with broad workbench coverage and Python, C++, and Markdown previews. |
+| [Hypnotic Copper](themes/hypnotic-copper/) | Copper-inspired Metal, Glow, and Dark themes with broad workbench coverage, polished interaction states, and Python, C++, and Markdown previews. |
 
 ## Philosophy
 

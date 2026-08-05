@@ -2,6 +2,17 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.2.1] - 2026-08-05
+
+### Added
+
+- Added palette-specific compact hover backgrounds for grouped Status Bar items in Metal, Glow, and Dark.
+
+### Changed
+
+- Strengthened the copper character of **Hypnotic Copper Metal** across secondary button hover, input borders, list selections and hovers, scrollbar states, and the Status Bar.
+- Refined Metal's standard, prominent, and remote Status Bar hover states for a more cohesive copper treatment.
+
 ## [1.2.0] - 2026-08-05
 
 ### Added

@@ -2,6 +2,16 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.2.1] - 2026-08-05
+
+### Added
+
+- Added palette-specific compact Status Bar hover backgrounds across all three variants.
+
+### Changed
+
+- Refined Metal's copper accents across inputs, lists, scrollbars, buttons, and Status Bar interactions.
+
 ## [1.2.0] - 2026-08-05
 
 ### Added
