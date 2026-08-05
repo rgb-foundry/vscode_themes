@@ -6,7 +6,7 @@ Rather than relying on highly saturated rainbow syntax highlighting, Hypnotic Co
 
 ## Why Hypnotic Copper?
 
-Hypnotic Copper started as an attempt to make copper accents feel useful rather than decorative. The themes share the same basic vocabulary across three surfaces: brushed metal, crisp white, and graphite dark. Metal keeps a cool machined feel, Glow keeps the editor and terminal bright, and Dark keeps the contrast comfortable in lower light.
+Hypnotic Copper started as an attempt to make copper accents feel useful rather than decorative. The themes share the same basic vocabulary across three surfaces: blue-gray metal, crisp white, and graphite dark. Metal keeps a cool machined feel, Glow keeps the editor and terminal bright, and Dark keeps the contrast comfortable in lower light.
 
 The goal is modest: keep the workspace calm, make syntax and semantic colors easy to scan, and let terminal tools preserve their own signal colors. Copper is used as an accent for focus, selection, and identity rather than as a blanket tint.
 
@@ -16,11 +16,13 @@ It is still a theme in motion, learning its own balance as the three variants se
 
 ### Hypnotic Copper Metal
 
-A brushed silver theme inspired by machined aluminum.
+A cool metallic theme inspired by machined aluminum and softly tinted blue-gray interfaces.
 
-* Cool metallic user interface
-* Warm copper accents for active UI elements
-* Calm, balanced syntax highlighting
+* Soft blue-gray editor and workbench surfaces
+* Deep navy primary text with clear secondary foregrounds
+* Warm copper accents for keywords, active UI elements, and modified resources
+* Blue focus and information colors that remain distinct from copper emphasis
+* Calm, balanced syntax highlighting with readable contrast
 * Designed for bright environments without the harshness of traditional light themes
 
 ### Hypnotic Copper Glow
@@ -53,7 +55,7 @@ Hypnotic Copper follows a few simple principles:
 * Copper is reserved for emphasis instead of being used everywhere.
 * Comments remain subtle.
 * No italics.
-* No bold syntax.
+* No forced bold styling for programming-language syntax.
 * Semantic highlighting is used where supported to provide richer information without increasing visual noise.
 * UI elements should feel cohesive rather than visually fragmented.
 
@@ -74,6 +76,7 @@ The syntax palette intentionally remains restrained:
 * ✓ Metal, Glow, and Dark variants
 * ✓ Semantic highlighting
 * ✓ Carefully tuned workbench colors
+* ✓ Broad coverage for Chat, inline editing, diff and merge views, notebooks, testing, settings, and SCM graphs
 * ✓ Refined GitLens integration
 * ✓ Improved hover widgets
 * ✓ Copper-inspired bracket pair highlighting
@@ -83,7 +86,11 @@ The syntax palette intentionally remains restrained:
 * ✓ Dark terminal and editor tooltips
 * ✓ Consistent Source Control and Activity Bar styling
 * ✓ No italics
-* ✓ No bold syntax
+* ✓ No forced bold styling for programming-language syntax
+
+## Compatibility
+
+Hypnotic Copper requires Visual Studio Code 1.125.0 or newer.
 
 ## Installation
 
@@ -99,20 +106,49 @@ The syntax palette intentionally remains restrained:
 
 ## Screenshots
 
+Each variant is shown with Python, C++, and Markdown examples.
+
 ### Hypnotic Copper Glow
 
-![Hypnotic Copper Glow](images/vscode-screenshot-glow-py.png)
-![Hypnotic Copper Glow](images/vscode-screenshot-glow-cpp.png)
+**Python**
+
+![Hypnotic Copper Glow with Python](images/vscode-screenshot-glow-py.png)
+
+**C++**
+
+![Hypnotic Copper Glow with C++](images/vscode-screenshot-glow-cpp.png)
+
+**Markdown**
+
+![Hypnotic Copper Glow with Markdown](images/vscode-screenshot-glow-md.png)
 
 ### Hypnotic Copper Metal
 
-![Hypnotic Copper Metal](images/vscode-screenshot-metal-py.png)
-![Hypnotic Copper Metal](images/vscode-screenshot-metal-cpp.png)
+**Python**
+
+![Hypnotic Copper Metal with Python](images/vscode-screenshot-metal-py.png)
+
+**C++**
+
+![Hypnotic Copper Metal with C++](images/vscode-screenshot-metal-cpp.png)
+
+**Markdown**
+
+![Hypnotic Copper Metal with Markdown](images/vscode-screenshot-metal-md.png)
 
 ### Hypnotic Copper Dark
 
-![Hypnotic Copper Dark](images/vscode-screenshot-dark-py.png)
-![Hypnotic Copper Dark](images/vscode-screenshot-dark-cpp.png)
+**Python**
+
+![Hypnotic Copper Dark with Python](images/vscode-screenshot-dark-py.png)
+
+**C++**
+
+![Hypnotic Copper Dark with C++](images/vscode-screenshot-dark-cpp.png)
+
+**Markdown**
+
+![Hypnotic Copper Dark with Markdown](images/vscode-screenshot-dark-md.png)
 
 ## Feedback
 

@@ -2,6 +2,28 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.2.0] - 2026-08-05
+
+### Added
+
+- Expanded all three variants with comprehensive workbench coverage for Chat, inline editing, diff and merge views, debugging, notebooks, testing, settings, terminal states, and Source Control graphs.
+- Added broader TextMate scope coverage for programming languages, markup, Git output, regular expressions, documentation, and language-specific syntax.
+- Added Markdown screenshots for Metal, Glow, and Dark.
+
+### Changed
+
+- Reworked **Hypnotic Copper Metal** around soft blue-gray surfaces, deep navy text, blue interaction states, and carefully restored copper foreground accents.
+- Removed italic styling throughout the theme family while preserving meaningful underline and markup styling.
+- Moved token rule labels to the schema-supported rule-level `name` property.
+- Updated overlay colors with the transparency required by VS Code.
+- Migrated deprecated or removed workbench color keys to their current equivalents.
+- Refreshed the Python and C++ screenshots to show the current palettes.
+
+### Fixed
+
+- Removed unsupported TextMate token backgrounds and invalid `fontStyle` values.
+- Eliminated all color-theme schema warnings reported by Visual Studio Code 1.131.
+
 ## [1.1.1] - 2026-07-13
 
 ### Added
