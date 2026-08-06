@@ -583,19 +583,19 @@
         "terminal.ansiBlack": "#222F62",
         "terminal.ansiBlue": "#415FB9",
         "terminal.ansiBrightBlack": "#697097",
-        "terminal.ansiBrightBlue": "#457BE2",
-        "terminal.ansiBrightCyan": "#4DAAD4",
-        "terminal.ansiBrightGreen": "#5E7440",
-        "terminal.ansiBrightMagenta": "#E14167",
-        "terminal.ansiBrightRed": "#E14167",
+        "terminal.ansiBrightBlue": "#415FB9",
+        "terminal.ansiBrightCyan": "#25677C",
+        "terminal.ansiBrightGreen": "#51682F",
+        "terminal.ansiBrightMagenta": "#6D477A",
+        "terminal.ansiBrightRed": "#B42318",
         "terminal.ansiBrightWhite": "#222F62",
-        "terminal.ansiBrightYellow": "#876D45",
-        "terminal.ansiCyan": "#4DAAD4",
-        "terminal.ansiGreen": "#5E7440",
-        "terminal.ansiMagenta": "#697097",
-        "terminal.ansiRed": "#E14167",
+        "terminal.ansiBrightYellow": "#8D4435",
+        "terminal.ansiCyan": "#25677C",
+        "terminal.ansiGreen": "#51682F",
+        "terminal.ansiMagenta": "#6D477A",
+        "terminal.ansiRed": "#B42318",
         "terminal.ansiWhite": "#697097",
-        "terminal.ansiYellow": "#876D45",
+        "terminal.ansiYellow": "#8D4435",
         "terminal.background": "#E1E2E7",
         "terminal.border": "#B7BBCF",
         "terminal.foreground": "#222F62",
@@ -675,15 +675,15 @@
         },
         "function": {
             "fontStyle": "",
-            "foreground": "#876D45"
+            "foreground": "#6D477A"
         },
         "function.declaration": {
             "fontStyle": "",
-            "foreground": "#876D45"
+            "foreground": "#6D477A"
         },
         "function.defaultLibrary": {
             "fontStyle": "",
-            "foreground": "#876D45"
+            "foreground": "#6D477A"
         },
         "interface": {
             "fontStyle": "",
@@ -703,15 +703,15 @@
         },
         "method": {
             "fontStyle": "",
-            "foreground": "#876D45"
+            "foreground": "#6D477A"
         },
         "method.declaration": {
             "fontStyle": "",
-            "foreground": "#876D45"
+            "foreground": "#6D477A"
         },
         "method.defaultLibrary": {
             "fontStyle": "",
-            "foreground": "#876D45"
+            "foreground": "#6D477A"
         },
         "namespace": {
             "fontStyle": "",
@@ -739,11 +739,11 @@
         },
         "regexp": {
             "fontStyle": "",
-            "foreground": "#5E7440"
+            "foreground": "#51682F"
         },
         "string": {
             "fontStyle": "",
-            "foreground": "#5E7440"
+            "foreground": "#51682F"
         },
         "struct": {
             "fontStyle": "",
@@ -994,7 +994,7 @@
                 "entity.name.function.member.static"
             ],
             "settings": {
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -1062,7 +1062,7 @@
             "name": "Function name",
             "scope": "entity.name.function",
             "settings": {
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -1159,7 +1159,7 @@
                 "support.function"
             ],
             "settings": {
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -1443,7 +1443,7 @@
                 "support.function.builtin.python"
             ],
             "settings": {
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -1907,7 +1907,7 @@
             "name": "String",
             "scope": "string",
             "settings": {
-                "foreground": "#5E7440"
+                "foreground": "#51682F"
             }
         },
         {
@@ -2010,7 +2010,7 @@
             "name": "function name",
             "scope": "support.function",
             "settings": {
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -2184,7 +2184,7 @@
             "name": "Function and method names should be scoped using the following, but only when they are being invoked. When defined, they should use entity.name.function.",
             "scope": "variable.function",
             "settings": {
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -2282,7 +2282,7 @@
                 "variable.function"
             ],
             "settings": {
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -2294,7 +2294,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -2305,7 +2305,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -2317,7 +2317,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#876D45"
+                "foreground": "#6D477A"
             }
         },
         {
@@ -2352,7 +2352,7 @@
                 "string.quoted.docstring.multi.python"
             ],
             "settings": {
-                "foreground": "#5E7440"
+                "foreground": "#51682F"
             }
         },
         {
@@ -2385,7 +2385,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#5E7440"
+                "foreground": "#51682F"
             }
         },
         {
@@ -2456,6 +2456,33 @@
             ],
             "settings": {
                 "foreground": "#415FB9"
+            }
+        },
+        {
+            "name": "Starlark / Bazel rule and function names",
+            "scope": [
+                "source.starlark entity.name.function.python.starlark",
+                "source.starlark support.function.python.starlark"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#6D477A"
+            }
+        },
+        {
+            "name": "Starlark / Bazel keyword arguments",
+            "scope": "source.starlark meta.parameter.keyword.python.starlark",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#8D4435"
+            }
+        },
+        {
+            "name": "Starlark function parameters",
+            "scope": "source.starlark variable.parameter.python.starlark",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#222F62"
             }
         },
         {

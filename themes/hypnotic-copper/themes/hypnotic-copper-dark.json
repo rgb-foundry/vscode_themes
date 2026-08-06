@@ -2468,6 +2468,33 @@
             }
         },
         {
+            "name": "Starlark / Bazel rule and function names",
+            "scope": [
+                "source.starlark entity.name.function.python.starlark",
+                "source.starlark support.function.python.starlark"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#70B8C4"
+            }
+        },
+        {
+            "name": "Starlark / Bazel keyword arguments",
+            "scope": "source.starlark meta.parameter.keyword.python.starlark",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#DD8069"
+            }
+        },
+        {
+            "name": "Starlark function parameters",
+            "scope": "source.starlark variable.parameter.python.starlark",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#D6D3CF"
+            }
+        },
+        {
             "name": "Invalid or Deprecated",
             "scope": [
                 "invalid",

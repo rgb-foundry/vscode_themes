@@ -35,7 +35,7 @@ A crisp white light theme with the contrast language of Hypnotic Copper Dark.
 * Copper accents based on `#9E4C3B`, `#CC7C5E`, and `#D97757`
 * Selectively darkened foregrounds for light-background readability
 * Targeted Python and C++ token refinements
-* Native terminal ANSI colors for clearer command-line signal
+* Palette-tuned terminal ANSI colors with distinct command-line signals
 
 ### Hypnotic Copper Dark
 
@@ -43,7 +43,7 @@ A charcoal and graphite variant that preserves the same visual identity.
 
 * Deep graphite editor and workbench
 * Warm copper highlights throughout the interface
-* Native terminal ANSI colors for build tools and shell output
+* Palette-tuned terminal ANSI colors for build tools and shell output
 * Carefully balanced syntax colors for excellent readability
 * Comfortable for extended coding sessions
 
@@ -62,8 +62,8 @@ Hypnotic Copper follows a few simple principles:
 
 The syntax palette intentionally remains restrained:
 
-* **Copper** — keywords, decorators, HTML tags
-* **Brass** — functions and methods
+* **Copper** — keywords, decorators, Bazel keyword arguments, HTML tags
+* **Callable accents** — functions, methods, and Bazel rule names, tuned per variant
 * **Sage** — strings
 * **Plum** — types and classes
 * **Blue Steel** — namespaces and readonly symbols
@@ -82,9 +82,9 @@ The syntax palette intentionally remains restrained:
 * ✓ Improved hover widgets
 * ✓ Copper-inspired bracket pair highlighting
 * ✓ Copper-aware status bar, remote indicator, and compact-item hover states
-* ✓ Terminal styling that preserves native ANSI signal colors
+* ✓ Palette-tuned terminal ANSI styling with distinct warning and error colors
 * ✓ Consistent theme color keys across variants
-* ✓ Targeted Python and C++ token refinements
+* ✓ Targeted Python, C++, Starlark, and Bazel token refinements
 * ✓ Dark terminal and editor tooltips
 * ✓ Consistent Source Control and Activity Bar styling
 * ✓ No italics

@@ -2,6 +2,21 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.2.3] - 2026-08-06
+
+### Added
+
+- Added explicit Starlark and Bazel syntax rules for rule and function names, keyword arguments, and function parameters across all three variants.
+
+### Changed
+
+- Improved **Hypnotic Copper Metal** function-name and string contrast while separating callable names from copper keywords and declarations.
+- Refined Metal's terminal ANSI colors for clearer info, progress, warning, and error output.
+
+### Fixed
+
+- Prevented bright magenta warning annotations from rendering with the same red used for terminal errors, improving cross-platform warning separation.
+
 ## [1.2.2] - 2026-08-05
 
 ### Fixed

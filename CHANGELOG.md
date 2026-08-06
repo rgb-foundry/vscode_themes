@@ -2,6 +2,20 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.2.3] - 2026-08-06
+
+### Added
+
+- Added explicit Starlark and Bazel highlighting for callable names, keyword arguments, and function parameters across all three variants.
+
+### Changed
+
+- Improved Metal's function, string, and terminal ANSI contrast while preserving its blue-gray backgrounds and copper accents.
+
+### Fixed
+
+- Separated terminal warning annotations from the red reserved for errors, including bright-color terminal output.
+
 ## [1.2.2] - 2026-08-05
 
 ### Fixed
