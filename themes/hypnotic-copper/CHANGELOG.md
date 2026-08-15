@@ -10,7 +10,8 @@ All notable changes to **Hypnotic Copper** will be documented in this file.
 
 ### Changed
 
-- Darkened Metal's comment, punctuation, type, enum, and error text colors in place (same hues, lower lightness) to clear WCAG AA contrast against its blue-gray background, while leaving its blue focus accent untouched.
+- Rebuilt Metal's syntax token palette for WCAG AA contrast against its blue-gray background: comments, punctuation, types, enums, and errors are all readable at a comfortable margin, and previously near-identical neighboring tokens (comments, punctuation, and types had collapsed into the same color) are now clearly distinct from one another.
+- Gave Metal's function and method names a more saturated violet so they read as a deliberate accent instead of blending into the surrounding syntax colors, and moved comments and punctuation out of the blue-gray family into warm-taupe and neutral-gray tones respectively, while keeping Metal's signature blue focus accent and background untouched.
 - Resolved a scope conflict in Metal where the dedicated Namespace rule was silently shadowed by the Constants rule; namespaces now consistently use Metal's blue.
 - Trimmed Metal's Functions rule scope to match Glow and Dark, removing an overly broad `meta.function-call` match that risked tinting call arguments.
 - Removed a dead, shadowed `storage.type` rule from all three variants (a later bulk Keywords rule already owned that scope).

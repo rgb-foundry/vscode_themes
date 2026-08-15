@@ -23,7 +23,7 @@ A cool metallic theme inspired by machined aluminum and softly tinted blue-gray 
 * Warm copper accents for keywords, active UI elements, and modified resources
 * Copper-accented list, input, scrollbar, and status-bar interactions
 * Blue focus and information colors that remain distinct from copper emphasis
-* Calm, balanced syntax highlighting with readable contrast
+* WCAG AA-contrast syntax highlighting, with comment, punctuation, type, and function colors tuned to stay clearly distinct from one another as well as from the background
 * Designed for bright environments without the harshness of traditional light themes
 
 ### Hypnotic Copper Glow
@@ -84,7 +84,7 @@ The syntax palette intentionally remains restrained:
 * ✓ Copper-aware status bar, remote indicator, and compact-item hover states
 * ✓ Palette-tuned terminal ANSI styling with distinct warning and error colors
 * ✓ Consistent theme color keys across variants
-* ✓ Targeted Python, C++, Starlark, and Bazel token refinements
+* ✓ Targeted Python, C++, Go, Starlark, Bazel, YAML, and Markdown token refinements
 * ✓ Dark terminal and editor tooltips
 * ✓ Consistent Source Control and Activity Bar styling
 * ✓ No italics

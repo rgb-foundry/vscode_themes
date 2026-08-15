@@ -1,7 +1,7 @@
 {
     "name": "hypnotic-copper",
     "displayName": "Hypnotic Copper",
-    "description": "A handcrafted VS Code theme family with Metal, Glow, and Dark variants shaped by readable contrast and warm copper accents.",
+    "description": "A carefully crafted VS Code theme family with Metal, Glow, and Dark variants shaped by readable contrast and warm copper accents.",
     "version": "1.2.4",
     "publisher": "rgb-foundry",
     "license": "MIT",
@@ -23,7 +23,19 @@
         "aluminum",
         "minimal",
         "elegant",
-        "developer"
+        "developer",
+        "cpp",
+        "c++",
+        "py",
+        "python",
+        "go",
+        "golang",
+        "bazel",
+        "starlark",
+        "yaml",
+        "md",
+        "markdown",
+        "json"
     ],
     "icon": "icon.png",
     "galleryBanner": {

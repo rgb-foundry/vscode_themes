@@ -10,7 +10,7 @@ All notable changes to **Hypnotic Copper** will be documented in this file.
 
 ### Changed
 
-- Improved Metal's text contrast against its blue-gray background while preserving its blue focus accent and copper accents.
+- Rebuilt Metal's syntax palette for WCAG AA contrast and clear separation between neighboring token colors, while preserving its blue-gray background and focus accent.
 - Cleaned up scope conflicts and dead rules across all three variants.
 
 ### Fixed

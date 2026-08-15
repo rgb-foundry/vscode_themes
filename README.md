@@ -1,6 +1,6 @@
 # RGB Foundry · VS Code Themes
 
-A curated collection of handcrafted Visual Studio Code themes.
+A curated collection of carefully crafted Visual Studio Code themes.
 
 ## Themes
 
