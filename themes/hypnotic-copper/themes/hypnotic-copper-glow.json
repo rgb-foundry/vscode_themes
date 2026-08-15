@@ -1815,14 +1815,6 @@
             }
         },
         {
-            "name": "Types and definition / declaration keywords should use the following scope. Examples include int, bool, char, func, function, class and def. Depending on the language and semantics, const may be this or storage.modifier.",
-            "scope": "storage.type",
-            "settings": {
-                "fontStyle": "",
-                "foreground": "#267F99"
-            }
-        },
-        {
             "name": "Extends",
             "scope": "storage.type.extends",
             "settings": {
@@ -2273,7 +2265,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#AF00DB"
+                "foreground": "#9E4C3B"
             }
         },
         {
@@ -2492,6 +2484,41 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#1F2328"
+            }
+        },
+        {
+            "name": "Go Builtin Types",
+            "scope": "storage.type.go",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#267F99"
+            }
+        },
+        {
+            "name": "YAML Anchors & Aliases",
+            "scope": [
+                "entity.name.other.anchor.yaml",
+                "variable.other.alias.yaml"
+            ],
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#8A6157"
+            }
+        },
+        {
+            "name": "Markdown Strikethrough",
+            "scope": "markup.strikethrough",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#4B4F54"
+            }
+        },
+        {
+            "name": "Markdown List Bullet",
+            "scope": "punctuation.definition.list.begin.markdown",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#9E4C3B"
             }
         },
         {

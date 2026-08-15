@@ -2,6 +2,23 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.2.4] - 2026-08-15
+
+### Added
+
+- Added dedicated Go builtin-type, YAML anchor/alias, Markdown strikethrough, and Markdown list-bullet syntax rules across all three variants.
+
+### Changed
+
+- Darkened Metal's comment, punctuation, type, enum, and error text colors in place (same hues, lower lightness) to clear WCAG AA contrast against its blue-gray background, while leaving its blue focus accent untouched.
+- Resolved a scope conflict in Metal where the dedicated Namespace rule was silently shadowed by the Constants rule; namespaces now consistently use Metal's blue.
+- Trimmed Metal's Functions rule scope to match Glow and Dark, removing an overly broad `meta.function-call` match that risked tinting call arguments.
+- Removed a dead, shadowed `storage.type` rule from all three variants (a later bulk Keywords rule already owned that scope).
+
+### Fixed
+
+- Fixed Glow's C++ Return Keywords rule, which rendered in a stray violet (`#AF00DB`) outside the theme's palette instead of Glow's copper.
+
 ## [1.2.3] - 2026-08-06
 
 ### Added

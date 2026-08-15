@@ -2,6 +2,21 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.2.4] - 2026-08-15
+
+### Added
+
+- Added dedicated Go, YAML, and Markdown syntax rules across all three variants.
+
+### Changed
+
+- Improved Metal's text contrast against its blue-gray background while preserving its blue focus accent and copper accents.
+- Cleaned up scope conflicts and dead rules across all three variants.
+
+### Fixed
+
+- Fixed a stray non-palette color in Glow's C++ return-keyword highlighting.
+
 ## [1.2.3] - 2026-08-06
 
 ### Added
