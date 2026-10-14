@@ -32,7 +32,7 @@ A crisp white light theme with the contrast language of Hypnotic Copper Dark.
 
 * White editor and terminal surfaces
 * Off-white workbench structure for subtle separation
-* Copper accents based on `#9E4C3B`, `#CC7C5E`, and `#D97757`
+* Copper accents based on `#9A4A39`, `#CF8268`, and `#D97757`
 * Selectively darkened foregrounds for light-background readability
 * Targeted Python and C++ token refinements
 * Palette-tuned terminal ANSI colors with distinct command-line signals
@@ -81,7 +81,10 @@ The syntax palette intentionally remains restrained:
 * ✓ Refined GitLens integration
 * ✓ Improved hover widgets
 * ✓ Copper-inspired bracket pair highlighting
+* ✓ Designed for the VS Code modern UI: a unified neutral window frame, borderless floating cards, and a calm unfocused state
+* ✓ A single burnished copper ladder shared by every copper accent
 * ✓ Copper-aware status bar, remote indicator, and compact-item hover states
+* ✓ Bright yellow debugging status bar that stays distinct from copper and warnings
 * ✓ Palette-tuned terminal ANSI styling with distinct warning and error colors
 * ✓ Consistent theme color keys across variants
 * ✓ Targeted Python, C++, Go, Starlark, Bazel, YAML, and Markdown token refinements
@@ -92,7 +95,7 @@ The syntax palette intentionally remains restrained:
 
 ## Compatibility
 
-Hypnotic Copper requires Visual Studio Code 1.125.0 or newer.
+Hypnotic Copper requires Visual Studio Code 1.125.0 or newer. The modern UI window frame colors take effect in Visual Studio Code 1.141 and newer; earlier versions ignore them.
 
 ## Installation
 

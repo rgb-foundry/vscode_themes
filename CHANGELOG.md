@@ -2,6 +2,23 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.3.0] - 2026-10-14
+
+### Added
+
+- Added Visual Studio Code modern UI support with a unified neutral window frame, borderless floating cards, and a quieter unfocused-window state across all three variants.
+
+### Changed
+
+- Rebuilt the copper accents of all three variants on a single burnished copper ladder, replacing Dark's many one-off copper shades.
+- Lightened the Status Bar copper, darkened its hover states, and made the debugging Status Bar bright yellow.
+- Merged the title bar into the window frame and restyled the command center as a floating pill.
+- Raised Metal's Status Bar, button, menu, link, and command center contrast to WCAG AA.
+
+### Fixed
+
+- Fixed amber terminal ANSI blue in Glow and Dark, non-yellow chart yellow, and below-AA button hover contrast.
+
 ## [1.2.4] - 2026-08-15
 
 ### Added

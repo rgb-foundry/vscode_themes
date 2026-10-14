@@ -2,6 +2,32 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.3.0] - 2026-10-14
+
+### Added
+
+- Added support for the Visual Studio Code modern UI: `modernUI.shellBackground` and `modernUI.inactiveShellBackground` now give the gaps between the floating Explorer, editor, panel, and Status Bar cards the same neutral as the title bar in each variant (Metal `#C5C8D8`, Glow `#ECECEC`, Dark `#1A1F24`), so the window reads as one calm frame instead of a pale strip above the Status Bar.
+- Added borderless floating cards through a transparent `surface.border`, letting each variant's surface colors separate the cards on their own.
+- Added an unfocused-window state with a quieter frame, a muted copper Status Bar (`statusBar.inactiveBackground`), and warm-gray inactive title text.
+
+### Changed
+
+- Rebuilt the copper accents of all three variants on a single burnished ladder (`#74392D`, `#864333`, `#9A4A39`, `#A85843`, `#B4604B`, `#CF8268`, `#E6AA94`). This replaces roughly thirty one-off copper shades in Dark and unifies keyword, selection, badge, button, link, cursor, scrollbar, and Status Bar copper across the family. Bracket-pair colors remain independent so nesting levels stay distinguishable.
+- Lightened the Status Bar copper (Metal and Glow `#A85843`, Dark `#9E5340`) and darkened every Status Bar hover state, including compact grouped items and the remote indicator, so hovered items clearly sink into the bar.
+- Changed the debugging Status Bar to bright yellow with dark text, so a debug session is unmistakable and no longer shares its color with warning text (Metal and Glow) or with the normal copper bar (Dark).
+- Merged the title bar into the window frame and restyled the command center as a floating pill in the editor's surface color.
+- Gave Glow's title text a warm near-black (`#3A2723`).
+- Switched Metal's Status Bar, remote indicator, and primary button text to white for WCAG AA contrast on copper, and made Metal's primary button opaque.
+- Brought Metal's menu selection, text links, and command center text up to WCAG AA using Metal's information blue (`#415FB9`) and a deeper blue-gray (`#5A6189`), and raised Dark's command center text contrast.
+
+### Fixed
+
+- Fixed `terminal.ansiBlue` and `terminal.ansiBrightBlue` rendering as amber in Glow and Dark; they now use blue (`#2B5CB3` in Glow, `#7E9FE0` in Dark).
+- Fixed `charts.yellow` rendering as copper in Glow and Dark and as the warning khaki in Metal; it is now a true yellow in all three variants.
+- Fixed the inline-edit success indicator border in Glow and Dark, which did not use the success green.
+- Fixed primary button hover contrast, which fell below WCAG AA in all three variants.
+- Removed Metal's near-duplicate copper (`#9E4B3B`).
+
 ## [1.2.4] - 2026-08-15
 
 ### Added
