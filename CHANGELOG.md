@@ -2,6 +2,22 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.4.0] - 2026-10-14
+
+### Added
+
+- Added decorator, deprecated-symbol strikethrough, and Pylance `self`/`cls` and built-in constant colors.
+
+### Changed
+
+- Aligned TextMate and semantic token colors so tokens no longer change color when a language server loads.
+- Gave each variant one type color for all type-like symbols and a consistent Blue Steel and bronze, and updated the README palette to describe colors by role.
+- Changed Metal's Python docstrings to its comment color, matching Glow and Dark.
+
+### Fixed
+
+- Fixed Dark constants blending into keywords, C++ primitive types rendering as invalid code, Glow's navy Python strings, below-AA search line numbers, and invisible `region.whitish` text on light variants.
+
 ## [1.3.0] - 2026-10-14
 
 ### Added

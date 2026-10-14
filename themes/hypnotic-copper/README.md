@@ -31,7 +31,7 @@ A cool metallic theme inspired by machined aluminum and softly tinted blue-gray 
 A crisp white light theme with the contrast language of Hypnotic Copper Dark.
 
 * White editor and terminal surfaces
-* Off-white workbench structure for subtle separation
+* Off-white workbench structure inside a soft gray window frame
 * Copper accents based on `#9A4A39`, `#CF8268`, and `#D97757`
 * Selectively darkened foregrounds for light-background readability
 * Targeted Python and C++ token refinements
@@ -62,20 +62,23 @@ Hypnotic Copper follows a few simple principles:
 
 The syntax palette intentionally remains restrained:
 
-* **Copper** — keywords, decorators, Bazel keyword arguments, HTML tags
+* **Copper** — keywords, decorators, string prefixes, Bazel keyword arguments, HTML tags
 * **Callable accents** — functions, methods, and Bazel rule names, tuned per variant
-* **Sage** — strings
-* **Plum** — types and classes
-* **Blue Steel** — namespaces and readonly symbols
+* **Sage** — strings and regular expressions
+* **Type color** — types, classes, interfaces, enums, type parameters, and primitive types: plum in Dark, teal in Glow, and slate in Metal, where plum is the callable accent
+* **Blue Steel** — namespaces, constants, readonly symbols, macros, and built-in constants such as `None` and `True`
 * **Bronze** — numbers and enum members
-* **Graphite** — punctuation and operators
-* **Silver** — variables
+* **Graphite** — punctuation, operators, labels, and `self`/`cls`
+* **Silver** — variables and parameters
 * **Gray** — comments
+
+Deprecated symbols are shown with a strikethrough, and each token keeps the same color before and after semantic highlighting loads.
 
 ## Features
 
 * ✓ Metal, Glow, and Dark variants
-* ✓ Semantic highlighting
+* ✓ Semantic highlighting with matching TextMate colors, so tokens keep their color when a language server loads
+* ✓ WCAG AA contrast for every syntax color in all three variants
 * ✓ Carefully tuned workbench colors
 * ✓ Broad coverage for Chat, inline editing, diff and merge views, notebooks, testing, settings, and SCM graphs
 * ✓ Refined GitLens integration

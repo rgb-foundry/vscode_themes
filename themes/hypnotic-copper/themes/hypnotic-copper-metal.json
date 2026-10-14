@@ -653,9 +653,20 @@
     "name": "Hypnotic Copper Metal",
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "*.deprecated": {
+            "fontStyle": "strikethrough"
+        },
+        "builtinConstant": {
+            "fontStyle": "",
+            "foreground": "#415FB9"
+        },
         "class": {
             "fontStyle": "",
             "foreground": "#566181"
+        },
+        "clsParameter": {
+            "fontStyle": "",
+            "foreground": "#595A5F"
         },
         "comment": {
             "fontStyle": "",
@@ -667,7 +678,7 @@
         },
         "enum": {
             "fontStyle": "",
-            "foreground": "#765F3C"
+            "foreground": "#566181"
         },
         "enumMember": {
             "fontStyle": "",
@@ -703,7 +714,7 @@
         },
         "macro": {
             "fontStyle": "",
-            "foreground": "#BD1E44"
+            "foreground": "#415FB9"
         },
         "method": {
             "fontStyle": "",
@@ -745,6 +756,10 @@
             "fontStyle": "",
             "foreground": "#51682F"
         },
+        "selfParameter": {
+            "fontStyle": "",
+            "foreground": "#595A5F"
+        },
         "string": {
             "fontStyle": "",
             "foreground": "#51682F"
@@ -759,7 +774,7 @@
         },
         "typeParameter": {
             "fontStyle": "",
-            "foreground": "#415FB9"
+            "foreground": "#566181"
         },
         "variable": {
             "fontStyle": "",
@@ -837,7 +852,7 @@
             "name": "Git status remote",
             "scope": "comment.git-status.header.remote",
             "settings": {
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -952,7 +967,7 @@
             "name": "Number",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#415FB9"
+                "foreground": "#765F3C"
             }
         },
         {
@@ -1016,14 +1031,14 @@
             "name": "label",
             "scope": "entity.name.label",
             "settings": {
-                "foreground": "#415FB9"
+                "foreground": "#595A5F"
             }
         },
         {
             "name": "Macros",
             "scope": "entity.name.function.preprocessor",
             "settings": {
-                "foreground": "#566181"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -1198,7 +1213,7 @@
             "name": "custom literal number",
             "scope": "entity.name.operator.custom-literal.number",
             "settings": {
-                "foreground": "#415FB9"
+                "foreground": "#765F3C"
             }
         },
         {
@@ -1212,7 +1227,7 @@
             "name": "rust specific",
             "scope": "entity.name.lifetime.rust",
             "settings": {
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -1389,7 +1404,7 @@
                 "markup.deleted punctuation.definition.deleted"
             ],
             "settings": {
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -1676,7 +1691,7 @@
             "name": "region red color",
             "scope": "region.redish",
             "settings": {
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -1718,14 +1733,14 @@
             "name": "region pink color",
             "scope": "region.pinkish",
             "settings": {
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
             "name": "White for ST3 for non-colorized scheme",
             "scope": "region.whitish",
             "settings": {
-                "foreground": "#E1E2E7"
+                "foreground": "#222F62"
             }
         },
         {
@@ -1823,7 +1838,7 @@
             "scope": "storage.type.extends",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -1831,7 +1846,7 @@
             "scope": "storage.type.function.arrow",
             "settings": {
                 "fontStyle": "",
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -1859,7 +1874,7 @@
                 "storage.modifier.lifetime.rust"
             ],
             "settings": {
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -1937,7 +1952,7 @@
                 "string.other.link.description"
             ],
             "settings": {
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -1954,7 +1969,7 @@
                 "string.regexp punctuation.definition.string.end"
             ],
             "settings": {
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -1978,7 +1993,7 @@
             "name": "git status remote",
             "scope": "string.other.git-status.remote",
             "settings": {
-                "foreground": "#457BE2"
+                "foreground": "#864333"
             }
         },
         {
@@ -2162,7 +2177,7 @@
             "name": "Enum member",
             "scope": "variable.other.enummember",
             "settings": {
-                "foreground": "#415FB9"
+                "foreground": "#765F3C"
             }
         },
         {
@@ -2240,7 +2255,7 @@
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#595A5F"
+                "foreground": "#222F62"
             }
         },
         {
@@ -2316,6 +2331,17 @@
             }
         },
         {
+            "name": "Decorators",
+            "scope": [
+                "entity.name.function.decorator",
+                "punctuation.definition.decorator",
+                "meta.function.decorator support.type"
+            ],
+            "settings": {
+                "foreground": "#864333"
+            }
+        },
+        {
             "name": "Types & Classes",
             "scope": [
                 "entity.name.type",
@@ -2338,15 +2364,14 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#BD1E44"
+                "foreground": "#566181"
             }
         },
         {
             "name": "Strings",
             "scope": [
                 "string",
-                "punctuation.definition.string",
-                "string.quoted.docstring.multi.python"
+                "punctuation.definition.string"
             ],
             "settings": {
                 "foreground": "#51682F"
@@ -2363,7 +2388,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#765F3C"
+                "foreground": "#864333"
             }
         },
         {

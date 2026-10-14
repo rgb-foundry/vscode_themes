@@ -653,9 +653,20 @@
     "name": "Hypnotic Copper Glow",
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "*.deprecated": {
+            "fontStyle": "strikethrough"
+        },
+        "builtinConstant": {
+            "fontStyle": "",
+            "foreground": "#415FB9"
+        },
         "class": {
             "fontStyle": "",
             "foreground": "#267F99"
+        },
+        "clsParameter": {
+            "fontStyle": "",
+            "foreground": "#4E4C48"
         },
         "comment": {
             "fontStyle": "",
@@ -667,7 +678,7 @@
         },
         "enum": {
             "fontStyle": "",
-            "foreground": "#A15C16"
+            "foreground": "#267F99"
         },
         "enumMember": {
             "fontStyle": "",
@@ -675,7 +686,7 @@
         },
         "event": {
             "fontStyle": "",
-            "foreground": "#8A6157"
+            "foreground": "#415FB9"
         },
         "function": {
             "fontStyle": "",
@@ -691,7 +702,7 @@
         },
         "interface": {
             "fontStyle": "",
-            "foreground": "#6B4F49"
+            "foreground": "#267F99"
         },
         "keyword": {
             "fontStyle": "",
@@ -703,7 +714,7 @@
         },
         "macro": {
             "fontStyle": "",
-            "foreground": "#CF222E"
+            "foreground": "#415FB9"
         },
         "method": {
             "fontStyle": "",
@@ -719,7 +730,7 @@
         },
         "namespace": {
             "fontStyle": "",
-            "foreground": "#8A6157"
+            "foreground": "#415FB9"
         },
         "number": {
             "fontStyle": "",
@@ -739,27 +750,31 @@
         },
         "property.readonly": {
             "fontStyle": "",
-            "foreground": "#8A6157"
+            "foreground": "#415FB9"
         },
         "regexp": {
             "fontStyle": "",
-            "foreground": "#0A3069"
+            "foreground": "#567C30"
+        },
+        "selfParameter": {
+            "fontStyle": "",
+            "foreground": "#4E4C48"
         },
         "string": {
             "fontStyle": "",
-            "foreground": "#567c30"
+            "foreground": "#567C30"
         },
         "struct": {
             "fontStyle": "",
-            "foreground": "#6B4F49"
+            "foreground": "#267F99"
         },
         "type": {
             "fontStyle": "",
-            "foreground": "#6B4F49"
+            "foreground": "#267F99"
         },
         "typeParameter": {
             "fontStyle": "",
-            "foreground": "#8A6157"
+            "foreground": "#267F99"
         },
         "variable": {
             "fontStyle": "",
@@ -771,7 +786,7 @@
         },
         "variable.readonly": {
             "fontStyle": "",
-            "foreground": "#8A6157"
+            "foreground": "#415FB9"
         }
     },
     "tokenColors": [
@@ -830,7 +845,7 @@
             "name": "Comment TODO / FIXME (at least in VSCode Python)",
             "scope": "comment keyword.codetag.notation",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -868,7 +883,7 @@
             "name": "Constant",
             "scope": "constant",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -882,14 +897,14 @@
             "name": "Constant",
             "scope": "constant.other.java",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
             "name": "Constant",
             "scope": "constant.other.caps",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -903,35 +918,35 @@
             "name": "Constant as property",
             "scope": "constant.other.property",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
             "name": "Constant in latex",
             "scope": "constant.other.citation.latex",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
             "name": "Constant as color (in css / sass)",
             "scope": "constant.other.color",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
             "name": "Constant as character class escape (e.g. in regex)",
             "scope": "constant.other.character-class.escape",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
             "name": "Constant as key (e.g. in puppet manifests)",
             "scope": "constant.other.key",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -952,28 +967,28 @@
             "name": "Number",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#A15C16"
             }
         },
         {
             "name": "Constant",
             "scope": "constant.language",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
             "name": "Character escape",
             "scope": "constant.character.escape",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
             "name": "Search result line numbers",
             "scope": "constant.numeric.line-number.find-in-files",
             "settings": {
-                "foreground": "#8A8F98"
+                "foreground": "#6E737A"
             }
         },
         {
@@ -1016,14 +1031,14 @@
             "name": "label",
             "scope": "entity.name.label",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#4B4F54"
             }
         },
         {
             "name": "Macros",
             "scope": "entity.name.function.preprocessor",
             "settings": {
-                "foreground": "#267F99"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -1044,14 +1059,14 @@
             "name": "Constant name",
             "scope": "entity.name.constant",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
             "name": "Namespace",
             "scope": "entity.name.namespace",
             "settings": {
-                "foreground": "#267F99"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -1170,7 +1185,7 @@
             "name": "git status commit hex",
             "scope": "entity.other.git-status.hex",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -1198,7 +1213,7 @@
             "name": "custom literal number",
             "scope": "entity.name.operator.custom-literal.number",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#A15C16"
             }
         },
         {
@@ -1526,7 +1541,7 @@
                 "meta.preprocessor"
             ],
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -1568,7 +1583,7 @@
                 "meta.decorator variable.other.readwrite"
             ],
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -1711,7 +1726,7 @@
             "name": "region purple color",
             "scope": "region.purplish",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -1725,7 +1740,7 @@
             "name": "White for ST3 for non-colorized scheme",
             "scope": "region.whitish",
             "settings": {
-                "foreground": "#FFFFFF"
+                "foreground": "#1F2328"
             }
         },
         {
@@ -1768,7 +1783,7 @@
             "name": "git",
             "scope": "source.git-show.commit.sha",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -1791,7 +1806,7 @@
                 "source.git-show meta.diff.git-diff.header.extended.index.to-sha"
             ],
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -1849,7 +1864,7 @@
             "name": "refs (Restructured text)",
             "scope": "storage.class.restructuredtext.ref",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -2063,7 +2078,7 @@
             "name": "rust specific",
             "scope": "support.constant.core.rust",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -2127,7 +2142,7 @@
             "name": "Reserved variable names: 'arguments'",
             "scope": "variable.language.arguments",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -2141,7 +2156,7 @@
             "name": "Immutable variables, often via a const modifier, should receive the following scope. Depending on the language and semantics, entity.name.constant may be a better choice.",
             "scope": "variable.other.constant",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -2162,7 +2177,7 @@
             "name": "Enum member",
             "scope": "variable.other.enummember",
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#A15C16"
             }
         },
         {
@@ -2197,7 +2212,7 @@
                 "source.ruby variable.other.readwrite.class.ruby"
             ],
             "settings": {
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -2243,7 +2258,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#4E4C48"
+                "foreground": "#1F2328"
             }
         },
         {
@@ -2285,10 +2300,11 @@
             }
         },
         {
-            "name": "Python Function Declarations",
+            "name": "C++ Function Definitions",
             "scope": [
-                "entity.name.function.python",
-                "meta.function.python entity.name.function.python"
+                "entity.name.function.definition.cpp",
+                "meta.head.function.definition.cpp entity.name.function.definition.cpp",
+                "meta.function.definition.cpp entity.name.function.definition.cpp"
             ],
             "settings": {
                 "fontStyle": "",
@@ -2296,11 +2312,10 @@
             }
         },
         {
-            "name": "C++ Function Definitions",
+            "name": "Python Function Declarations",
             "scope": [
-                "entity.name.function.definition.cpp",
-                "meta.head.function.definition.cpp entity.name.function.definition.cpp",
-                "meta.function.definition.cpp entity.name.function.definition.cpp"
+                "entity.name.function.python",
+                "meta.function.python entity.name.function.python"
             ],
             "settings": {
                 "fontStyle": "",
@@ -2317,6 +2332,17 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#8250DF"
+            }
+        },
+        {
+            "name": "Decorators",
+            "scope": [
+                "entity.name.function.decorator",
+                "punctuation.definition.decorator",
+                "meta.function.decorator support.type"
+            ],
+            "settings": {
+                "foreground": "#9A4A39"
             }
         },
         {
@@ -2342,7 +2368,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#CF222E"
+                "foreground": "#267F99"
             }
         },
         {
@@ -2367,7 +2393,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#CF222E"
+                "foreground": "#9A4A39"
             }
         },
         {
@@ -2386,7 +2412,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#0A3069"
+                "foreground": "#567C30"
             }
         },
         {
@@ -2410,7 +2436,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -2420,7 +2446,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -2460,7 +2486,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {
@@ -2506,7 +2532,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#8A6157"
+                "foreground": "#415FB9"
             }
         },
         {

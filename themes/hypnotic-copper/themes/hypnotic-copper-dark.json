@@ -653,9 +653,20 @@
     "name": "Hypnotic Copper Dark",
     "semanticHighlighting": true,
     "semanticTokenColors": {
+        "*.deprecated": {
+            "fontStyle": "strikethrough"
+        },
+        "builtinConstant": {
+            "fontStyle": "",
+            "foreground": "#83AFC9"
+        },
         "class": {
             "fontStyle": "",
             "foreground": "#B8A0C3"
+        },
+        "clsParameter": {
+            "fontStyle": "",
+            "foreground": "#BBC4CC"
         },
         "comment": {
             "fontStyle": "",
@@ -667,7 +678,7 @@
         },
         "enum": {
             "fontStyle": "",
-            "foreground": "#D69A59"
+            "foreground": "#B8A0C3"
         },
         "enumMember": {
             "fontStyle": "",
@@ -703,7 +714,7 @@
         },
         "macro": {
             "fontStyle": "",
-            "foreground": "#C83E22"
+            "foreground": "#83AFC9"
         },
         "method": {
             "fontStyle": "",
@@ -711,7 +722,7 @@
         },
         "method.declaration": {
             "fontStyle": "",
-            "foreground": "#82C3CC"
+            "foreground": "#70B8C4"
         },
         "method.defaultLibrary": {
             "fontStyle": "",
@@ -745,6 +756,10 @@
             "fontStyle": "",
             "foreground": "#A9C58D"
         },
+        "selfParameter": {
+            "fontStyle": "",
+            "foreground": "#BBC4CC"
+        },
         "string": {
             "fontStyle": "",
             "foreground": "#A9C58D"
@@ -759,7 +774,7 @@
         },
         "typeParameter": {
             "fontStyle": "",
-            "foreground": "#C9B5D0"
+            "foreground": "#B8A0C3"
         },
         "variable": {
             "fontStyle": "",
@@ -830,7 +845,7 @@
             "name": "Comment TODO / FIXME (at least in VSCode Python)",
             "scope": "comment keyword.codetag.notation",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -868,7 +883,7 @@
             "name": "Constant",
             "scope": "constant",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -882,14 +897,14 @@
             "name": "Constant",
             "scope": "constant.other.java",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
             "name": "Constant",
             "scope": "constant.other.caps",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -903,35 +918,35 @@
             "name": "Constant as property",
             "scope": "constant.other.property",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
             "name": "Constant in latex",
             "scope": "constant.other.citation.latex",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
             "name": "Constant as color (in css / sass)",
             "scope": "constant.other.color",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
             "name": "Constant as character class escape (e.g. in regex)",
             "scope": "constant.other.character-class.escape",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
             "name": "Constant as key (e.g. in puppet manifests)",
             "scope": "constant.other.key",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -952,28 +967,28 @@
             "name": "Number",
             "scope": "constant.numeric",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#D69A59"
             }
         },
         {
             "name": "Constant",
             "scope": "constant.language",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
             "name": "Character escape",
             "scope": "constant.character.escape",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
             "name": "Search result line numbers",
             "scope": "constant.numeric.line-number.find-in-files",
             "settings": {
-                "foreground": "#596169"
+                "foreground": "#87929D"
             }
         },
         {
@@ -1016,7 +1031,7 @@
             "name": "label",
             "scope": "entity.name.label",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#C9C5C1"
             }
         },
         {
@@ -1044,7 +1059,7 @@
             "name": "Constant name",
             "scope": "entity.name.constant",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -1170,7 +1185,7 @@
             "name": "git status commit hex",
             "scope": "entity.other.git-status.hex",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -1198,7 +1213,7 @@
             "name": "custom literal number",
             "scope": "entity.name.operator.custom-literal.number",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#D69A59"
             }
         },
         {
@@ -1526,7 +1541,7 @@
                 "meta.preprocessor"
             ],
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -1568,7 +1583,7 @@
                 "meta.decorator variable.other.readwrite"
             ],
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -1711,7 +1726,7 @@
             "name": "region purple color",
             "scope": "region.purplish",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -1768,7 +1783,7 @@
             "name": "git",
             "scope": "source.git-show.commit.sha",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -1791,7 +1806,7 @@
                 "source.git-show meta.diff.git-diff.header.extended.index.to-sha"
             ],
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -1849,7 +1864,7 @@
             "name": "refs (Restructured text)",
             "scope": "storage.class.restructuredtext.ref",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -2063,7 +2078,7 @@
             "name": "rust specific",
             "scope": "support.constant.core.rust",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -2127,7 +2142,7 @@
             "name": "Reserved variable names: 'arguments'",
             "scope": "variable.language.arguments",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -2141,7 +2156,7 @@
             "name": "Immutable variables, often via a const modifier, should receive the following scope. Depending on the language and semantics, entity.name.constant may be a better choice.",
             "scope": "variable.other.constant",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -2162,7 +2177,7 @@
             "name": "Enum member",
             "scope": "variable.other.enummember",
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#D69A59"
             }
         },
         {
@@ -2197,7 +2212,7 @@
                 "source.ruby variable.other.readwrite.class.ruby"
             ],
             "settings": {
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -2243,7 +2258,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#BBC4CC"
+                "foreground": "#D6D3CF"
             }
         },
         {
@@ -2316,7 +2331,18 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#82C3CC"
+                "foreground": "#70B8C4"
+            }
+        },
+        {
+            "name": "Decorators",
+            "scope": [
+                "entity.name.function.decorator",
+                "punctuation.definition.decorator",
+                "meta.function.decorator support.type"
+            ],
+            "settings": {
+                "foreground": "#CF8268"
             }
         },
         {
@@ -2342,7 +2368,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#F08C7A"
+                "foreground": "#B8A0C3"
             }
         },
         {
@@ -2367,7 +2393,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#D38A73"
+                "foreground": "#CF8268"
             }
         },
         {
@@ -2410,7 +2436,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {
@@ -2440,7 +2466,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#C7C3BF"
+                "foreground": "#C9C5C1"
             }
         },
         {
@@ -2506,7 +2532,7 @@
             ],
             "settings": {
                 "fontStyle": "",
-                "foreground": "#D38A73"
+                "foreground": "#83AFC9"
             }
         },
         {

@@ -2,6 +2,36 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.4.0] - 2026-10-14
+
+### Added
+
+- Added a dedicated Decorators rule so decorator names and `@` markers use copper before and after semantic highlighting loads.
+- Added a strikethrough for deprecated symbols through the `*.deprecated` semantic modifier.
+- Added Pylance `selfParameter` and `clsParameter` semantic colors that match the quiet TextMate color for `self` and `cls`, and a `builtinConstant` color so `None`, `True`, and `False` use Blue Steel.
+
+### Changed
+
+- Aligned TextMate and semantic token colors in all three variants, so enums, enum members, parameters, decorators, macros, type parameters, labels, readonly symbols, and Glow's types no longer change color when a language server finishes loading.
+- Gave every type-like symbol (types, classes, interfaces, enums, type parameters, and primitive types) a single type color per variant: plum in Dark, teal in Glow, and slate in Metal.
+- Gave Glow a true Blue Steel (`#415FB9`, shared with Metal) for namespaces, constants, readonly symbols, macros, TODO tags, Git hashes, and YAML anchors, replacing a rose-brown that did not match the documented palette.
+- Moved numbers and enum members to each variant's bronze, matching the documented palette and the semantic number color.
+- Colored macros with Blue Steel instead of red, and Python string prefixes with copper.
+- Rendered parameters in the variable color while keeping `self` and `cls` quiet.
+- Changed Metal's Python docstrings from the string color to its comment color to match Glow and Dark.
+- Unified Dark's function and method colors, and its operator and punctuation colors, which had drifted into near-duplicate shades.
+- Changed Metal's arrow functions, `extends`, Rust lifetimes and visibility modifiers, regular expression delimiters, link titles, and deleted diff lines from a below-AA blue to Metal's copper, matching Glow and Dark.
+- Updated the README syntax palette to describe each color by role, including Metal's slate type color.
+
+### Fixed
+
+- Fixed Dark's constants, which had become almost indistinguishable from copper keywords; they now use Blue Steel.
+- Fixed C++ primitive types such as `int` and `float` rendering in the invalid-code red in all three variants.
+- Fixed Glow's Python strings rendering in navy instead of the sage used for every other language, and Glow's regular expressions rendering in navy.
+- Fixed Glow and Dark search-result line numbers falling below WCAG AA contrast.
+- Fixed `region.whitish` text being invisible on Metal and Glow's light backgrounds.
+- Restored identical token rule order across all three variants.
+
 ## [1.3.0] - 2026-10-14
 
 ### Added
