@@ -2,6 +2,12 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.4.1] - 2026-10-14
+
+### Fixed
+
+- Reduced the extension icon to meet the Visual Studio Marketplace's 1024 KB icon size limit.
+
 ## [1.4.0] - 2026-10-14
 
 ### Added
