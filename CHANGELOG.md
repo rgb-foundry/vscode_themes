@@ -2,6 +2,23 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.5.0] - 2026-10-15
+
+### Added
+
+- Set modern UI colors for the active activity-bar item, tab hover, and sash grip.
+
+### Changed
+
+- Gave Metal and Glow one shared syntax palette, calming Glow's loud purple and returning copper to the lead in Metal.
+- Separated Dark's namespaces from its functions, and Metal's comments from its numbers.
+- Gave warnings and errors their own colors, apart from numbers and copper keywords, with a shared crimson error in the light variants.
+- Rebuilt the bracket-pair colors on one copper-led hue pattern that meets WCAG AA in every variant.
+
+### Fixed
+
+- Fixed below-AA bracket colors, number/warning color collisions, Metal's offset bracket guides, Glow's invisible active activity-bar item, faint hover states, and a low-contrast sash grip.
+
 ## [1.4.1] - 2026-10-14
 
 ### Fixed

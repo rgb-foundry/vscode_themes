@@ -24,6 +24,7 @@ A cool metallic theme inspired by machined aluminum and softly tinted blue-gray 
 * Copper-accented list, input, scrollbar, and status-bar interactions
 * Blue focus and information colors that remain distinct from copper emphasis
 * WCAG AA-contrast syntax highlighting, with comment, punctuation, type, and function colors tuned to stay clearly distinct from one another as well as from the background
+* The same syntax palette as Glow, so the two light variants differ only in surface
 * Designed for bright environments without the harshness of traditional light themes
 
 ### Hypnotic Copper Glow
@@ -32,7 +33,8 @@ A crisp white light theme with the contrast language of Hypnotic Copper Dark.
 
 * White editor and terminal surfaces
 * Off-white workbench structure inside a soft gray window frame
-* Copper accents based on `#9A4A39`, `#CF8268`, and `#D97757`
+* Copper accents from the burnished copper ladder, led by `#9A4A39`
+* The same syntax palette as Metal, with evenly weighted accents so no single color dominates
 * Selectively darkened foregrounds for light-background readability
 * Targeted Python and C++ token refinements
 * Palette-tuned terminal ANSI colors with distinct command-line signals
@@ -63,27 +65,28 @@ Hypnotic Copper follows a few simple principles:
 The syntax palette intentionally remains restrained:
 
 * **Copper** — keywords, decorators, string prefixes, Bazel keyword arguments, HTML tags
-* **Callable accents** — functions, methods, and Bazel rule names, tuned per variant
-* **Sage** — strings and regular expressions
-* **Type color** — types, classes, interfaces, enums, type parameters, and primitive types: plum in Dark, teal in Glow, and slate in Metal, where plum is the callable accent
-* **Blue Steel** — namespaces, constants, readonly symbols, macros, and built-in constants such as `None` and `True`
+* **Callable accent** — functions, methods, and Bazel rule names: cyan in Dark, plum in Metal and Glow
+* **Sage** — strings and regular expressions: sage in Dark, olive in Metal and Glow
+* **Type color** — types, classes, interfaces, enums, type parameters, and primitive types: plum in Dark, teal in Metal and Glow
+* **Steel** — namespaces, constants, readonly symbols, macros, and built-in constants such as `None` and `True`: periwinkle in Dark, steel blue in Metal and Glow
 * **Bronze** — numbers and enum members
 * **Graphite** — punctuation, operators, labels, and `self`/`cls`
 * **Silver** — variables and parameters
-* **Gray** — comments
+* **Gray** — comments: cool gray in Dark and Glow, sage gray in Metal
 
-Deprecated symbols are shown with a strikethrough, and each token keeps the same color before and after semantic highlighting loads.
+Metal and Glow use identical hex values for every syntax role. Warnings and errors use their own amber and crimson (rose in Dark), so they never match a syntax color. Deprecated symbols are shown with a strikethrough, and each token keeps the same color before and after semantic highlighting loads.
 
 ## Features
 
 * ✓ Metal, Glow, and Dark variants
 * ✓ Semantic highlighting with matching TextMate colors, so tokens keep their color when a language server loads
-* ✓ WCAG AA contrast for every syntax color in all three variants
+* ✓ WCAG AA contrast for every syntax color and bracket level in all three variants
+* ✓ Syntax roles kept visibly apart from one another, measured by perceptual color difference
 * ✓ Carefully tuned workbench colors
 * ✓ Broad coverage for Chat, inline editing, diff and merge views, notebooks, testing, settings, and SCM graphs
 * ✓ Refined GitLens integration
 * ✓ Improved hover widgets
-* ✓ Copper-inspired bracket pair highlighting
+* ✓ Six-level bracket pair colors that lead with copper and alternate hues, so adjacent levels never look alike
 * ✓ Designed for the VS Code modern UI: a unified neutral window frame, borderless floating cards, and a calm unfocused state
 * ✓ A single burnished copper ladder shared by every copper accent
 * ✓ Copper-aware status bar, remote indicator, and compact-item hover states
