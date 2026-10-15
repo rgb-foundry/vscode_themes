@@ -2,6 +2,40 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.5.0] - 2026-10-15
+
+### Added
+
+- Set three modern UI keys explicitly: `modernActivityBarItem.activeBackground`, `modernTab.hoverBackground`, and `modernSash.gripForeground`.
+
+### Changed
+
+- Metal and Glow now share one syntax palette. Copper keywords use `#9A4A39`, functions plum `#874D95`, types teal `#18667C`, namespaces and constants steel `#4C5A9B`, numbers bronze `#765F3C`, and strings olive `#51682F`. The two light variants now differ only in surface.
+  - Metal keywords moved from `#864333` to the R1 ladder's `#9A4A39`, so copper leads again.
+  - Metal types moved from slate `#566181` to teal, which had sat too close to the steel.
+  - Glow functions moved from GitHub Light's `#8250DF` (chroma 84) to plum.
+  - Glow types moved from `#267F99` to a deeper teal (4.59 → 6.50:1).
+  - Glow numbers and strings moved to Metal's bronze and olive.
+  - The accent chroma spread falls from 56 to 23 in Glow and from 35 to 23 in Metal, close to Dark's 24, so no single accent dominates.
+- Namespaces, constants, readonly symbols, and macros in Metal and Glow use a grayer steel, `#4C5A9B`, in place of Blue Steel `#415FB9`. Workbench UI keys keep `#415FB9`, which matches the herdr palette that inspired Metal.
+- Moved Dark's namespaces and constants from `#83AFC9` to periwinkle `#9AB8EC`. They had nearly matched the cyan function color (ΔE 9.1).
+- Moved Metal's comments from warm taupe `#6B6258` to sage gray `#445A4E`. This separates them from the bronze numbers and raises their contrast from 4.62:1 to 5.76:1.
+- Moved Dark's warnings from `#D69A59`, which numbers also used, to golden amber `#EBC15A`. Moved its errors from `#F06B5D`, close to the copper keywords, to rose `#F06B8A`.
+- Metal now uses Glow's amber warning, `#A15C16`, in place of herdr bronze `#876D45`, which sat too close to the numbers.
+- Metal and Glow share a crimson error color, `#B0244A`. It replaces `#E14167` (3.15:1) in Metal and `#B42318` in Glow, moves error squiggles away from copper keywords, and passes WCAG AA as text on every light surface.
+- Rebuilt the six bracket-pair levels in all three variants on one hue pattern: copper, teal, gold, blue, green, plum. Each level starts on the R1 copper ladder and passes WCAG AA. Every pair of levels is ΔE 13.7 or more apart. Dark uses deeper shades than before. Metal and Glow use the lightest shades their backgrounds allow.
+- Bracket pair guides now use their own level's color in every variant.
+- Glow no longer uses the off-ladder `#D97757`.
+
+### Fixed
+
+- Fixed bracket-pair colors below WCAG AA: all six levels in Metal, four in Glow, and two in Dark.
+- Fixed numbers and enum members in Dark and Glow sharing their exact color with warning squiggles.
+- Fixed Metal's bracket pair guides, which were shifted by one level.
+- Fixed Glow's active activity-bar item, which was invisible (`#F2F2F2` on `#F3F3F3`). It now has a copper tint.
+- Fixed faint tab and activity-bar hover backgrounds in Glow and Dark.
+- Fixed the sash grip falling below the 3:1 non-text contrast minimum in all three variants.
+
 ## [1.4.1] - 2026-10-14
 
 ### Fixed
