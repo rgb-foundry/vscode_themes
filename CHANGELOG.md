@@ -2,6 +2,25 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.6.0] - 2026-10-16
+
+### Added
+
+- Rebuilt every color on twelve 12-step color ramps with named roles, cutting Dark from 101 to 45 base colors.
+- Solid error and warning chips in the Status Bar.
+- Terminal colors that follow the palette, with consistent Bazel output colors.
+
+### Changed
+
+- Copper focus, indicators, and links in Metal, matching Glow and Dark.
+- Emerald success and azure info and modified colors, distinct from strings and namespaces.
+- Lighter primary buttons in the light themes, a shared Status Bar copper, and a clearly lighter unfocused Status Bar.
+- Three border strengths, slightly darker muted text in the light themes, icons that match code colors, and brackets drawn from the palette.
+
+### Fixed
+
+- Fixed interface text below WCAG AA contrast (sidebar titles, section headers, inactive tabs, Quick Open, and several Metal panels), plus near-invisible terminal black in Glow and Dark.
+
 ## [1.5.0] - 2026-10-15
 
 ### Added

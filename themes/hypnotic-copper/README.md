@@ -20,9 +20,9 @@ A cool metallic theme inspired by machined aluminum and softly tinted blue-gray 
 
 * Soft blue-gray editor and workbench surfaces
 * Deep navy primary text with clear secondary foregrounds
-* Warm copper accents for keywords, active UI elements, and modified resources
-* Copper-accented list, input, scrollbar, and status-bar interactions
-* Blue focus and information colors that remain distinct from copper emphasis
+* Warm copper accents for keywords, links, focus rings, and active UI elements
+* Copper selection, scrollbar, and Status Bar interactions
+* A bright blue reserved for information, distinct from copper emphasis
 * WCAG AA-contrast syntax highlighting, with comment, punctuation, type, and function colors tuned to stay clearly distinct from one another as well as from the background
 * The same syntax palette as Glow, so the two light variants differ only in surface
 * Designed for bright environments without the harshness of traditional light themes
@@ -81,7 +81,9 @@ Metal and Glow use identical hex values for every syntax role. Warnings and erro
 * ✓ Metal, Glow, and Dark variants
 * ✓ Semantic highlighting with matching TextMate colors, so tokens keep their color when a language server loads
 * ✓ WCAG AA contrast for every syntax color and bracket level in all three variants
+* ✓ Interface text checked for WCAG AA against the surface it actually sits on
 * ✓ Syntax roles kept visibly apart from one another, measured by perceptual color difference
+* ✓ Every color drawn from a small set of 12-step color ramps, so the variants stay consistent
 * ✓ Carefully tuned workbench colors
 * ✓ Broad coverage for Chat, inline editing, diff and merge views, notebooks, testing, settings, and SCM graphs
 * ✓ Refined GitLens integration
@@ -89,9 +91,10 @@ Metal and Glow use identical hex values for every syntax role. Warnings and erro
 * ✓ Six-level bracket pair colors that lead with copper and alternate hues, so adjacent levels never look alike
 * ✓ Designed for the VS Code modern UI: a unified neutral window frame, borderless floating cards, and a calm unfocused state
 * ✓ A single burnished copper ladder shared by every copper accent
-* ✓ Copper-aware status bar, remote indicator, and compact-item hover states
+* ✓ Copper-aware status bar, remote indicator, compact-item hover, and unfocused-window states
+* ✓ Solid error and warning chips in the status bar
 * ✓ Bright yellow debugging status bar that stays distinct from copper and warnings
-* ✓ Palette-tuned terminal ANSI styling with distinct warning and error colors
+* ✓ Terminal colors drawn from the palette, so Bazel and other build tools read consistently: green info, amber debug, plum warnings, and red errors
 * ✓ Consistent theme color keys across variants
 * ✓ Targeted Python, C++, Go, Starlark, Bazel, YAML, and Markdown token refinements
 * ✓ Dark terminal and editor tooltips
