@@ -2,6 +2,41 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.6.0] - 2026-10-16
+
+### Added
+
+- Rebuilt every color in all three variants on twelve 12-step color ramps (neutral, copper, crimson, amber, emerald, azure, gold, olive, teal, steel, plum, and a separate gray ramp for code), plus a few fixed constants such as white text on copper. Each interface key now uses a named job (surface, border, muted text, focus, warning, and so on) instead of a one-off color. Dark drops from 101 distinct base colors to 45, and its near-duplicate color pairs from 136 to 5.
+- Status Bar error and warning items are now solid chips: crimson with white text in Metal and Glow and vivid red `#FC5045` with dark text in Dark, and bright amber (`#F39A20` in Metal and Glow, `#FC995F` in Dark) with dark text. They stand apart from the copper bar and from the yellow debugging bar.
+- Terminal colors now follow the palette, so build tools such as Bazel read consistently: INFO and PASSED in emerald, DEBUG in amber, WARNING and FLAKY in plum (magenta), SUBCOMMAND in azure, and ERROR and FAILED in crimson. In Dark, bold errors use a true red.
+
+### Changed
+
+- Metal's focus rings, active indicators (activity bar, panel titles, tabs, radio buttons), word and find highlights, and links now use copper, like Glow and Dark. Metal's bright blue `#457BE2` now marks info.
+- Success, added lines, and passed tests use emerald (`#0C7253` in Metal and Glow, `#269E75` in Dark), and info and modified use azure (`#457BE2` in Metal and Glow, `#1A95D8` in Dark). Both are now clearly distinct from strings and namespaces. Modified files in the Explorer change from copper to azure.
+- List hover in Metal now uses a faint tint of the text color instead of copper. Copper is kept for selection.
+- Primary buttons and badges in Metal and Glow move to the Status Bar copper `#A85843` and darken to `#9A4A39` on hover. Keywords stay `#9A4A39`, matching Dark's split between button and keyword copper.
+- Dark's Status Bar uses the same copper as Metal and Glow (`#A85843`), with `#864333` on hover.
+- The Status Bar of an unfocused window uses a lighter copper, `#CF8268`, in all three variants, so a background window is easy to tell apart.
+- Borders now come in three strengths (subtle, default, strong) in every variant. Glow's inputs and popups get a faint outline, Metal's input border is gray instead of copper, and Dark's widget and input borders are slightly quieter.
+- Muted text is slightly darker in Metal (`#4B5276`, navy-tinted) and Glow (`#656A71`).
+- Outline, breadcrumb, and suggest icons and debug variable colors now match the code colors for each symbol kind.
+- Class names in Dark keep their plum color when semantic highlighting loads, instead of switching from periwinkle.
+- CSS classes, Markdown links, inserted diff text, and constructors in Metal use the function plum, matching Glow.
+- Bracket-pair colors now reuse palette colors. In Metal and Glow, level 2 becomes the type teal. In Dark, level 3 becomes the palest copper. Every level still meets WCAG AA, and levels stay at least ΔE 14 apart. Source Control graph lanes follow the bracket colors.
+- Terminal yellow is amber instead of copper, and terminal green is emerald instead of the string color. Terminal magenta in Glow is plum instead of GitHub's purple. Terminal black, white, and their bright versions follow the usual order in every variant.
+
+### Fixed
+
+- Fixed interface text below WCAG AA contrast, found by checking every text color against the background it actually sits on:
+  - sidebar view titles in all three variants (1.3:1 to 1.6:1 before)
+  - section headers and inactive tabs in Metal and Glow
+  - Quick Open text in all three
+  - Metal's added and untracked file names, warning text in lists, inputs, the Debug Console, and the Status Bar
+  - Metal's input placeholders, suggest list, notification text, and inactive panel titles
+- Fixed Glow's terminal black, which was almost white, and Dark's terminal black, which was almost invisible.
+- Fixed Metal's active activity-bar indicator falling below the 3:1 contrast minimum.
+
 ## [1.5.0] - 2026-10-15
 
 ### Added
@@ -17,11 +52,11 @@ All notable changes to **Hypnotic Copper** will be documented in this file.
   - Glow types moved from `#267F99` to a deeper teal (4.59 → 6.50:1).
   - Glow numbers and strings moved to Metal's bronze and olive.
   - The accent chroma spread falls from 56 to 23 in Glow and from 35 to 23 in Metal, close to Dark's 24, so no single accent dominates.
-- Namespaces, constants, readonly symbols, and macros in Metal and Glow use a grayer steel, `#4C5A9B`, in place of Blue Steel `#415FB9`. Workbench UI keys keep `#415FB9`, which matches the herdr palette that inspired Metal.
+- Namespaces, constants, readonly symbols, and macros in Metal and Glow use a grayer steel, `#4C5A9B`, in place of Blue Steel `#415FB9`. Workbench UI keys keep `#415FB9`, which matches the blue-gray palette that inspired Metal.
 - Moved Dark's namespaces and constants from `#83AFC9` to periwinkle `#9AB8EC`. They had nearly matched the cyan function color (ΔE 9.1).
 - Moved Metal's comments from warm taupe `#6B6258` to sage gray `#445A4E`. This separates them from the bronze numbers and raises their contrast from 4.62:1 to 5.76:1.
 - Moved Dark's warnings from `#D69A59`, which numbers also used, to golden amber `#EBC15A`. Moved its errors from `#F06B5D`, close to the copper keywords, to rose `#F06B8A`.
-- Metal now uses Glow's amber warning, `#A15C16`, in place of herdr bronze `#876D45`, which sat too close to the numbers.
+- Metal now uses Glow's amber warning, `#A15C16`, in place of the muted bronze `#876D45`, which sat too close to the numbers.
 - Metal and Glow share a crimson error color, `#B0244A`. It replaces `#E14167` (3.15:1) in Metal and `#B42318` in Glow, moves error squiggles away from copper keywords, and passes WCAG AA as text on every light surface.
 - Rebuilt the six bracket-pair levels in all three variants on one hue pattern: copper, teal, gold, blue, green, plum. Each level starts on the R1 copper ladder and passes WCAG AA. Every pair of levels is ΔE 13.7 or more apart. Dark uses deeper shades than before. Metal and Glow use the lightest shades their backgrounds allow.
 - Bracket pair guides now use their own level's color in every variant.
