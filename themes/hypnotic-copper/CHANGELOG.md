@@ -2,6 +2,12 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.6.1] - 2026-10-27
+
+### Fixed
+
+- Python and Starlark word operators (`and`, `or`, `not`, `in`, `is`) now use the copper keyword color, as in `if path not in items:`. They had used the operator color, which made them look like plain text, especially in Dark. Symbol operators such as `==` and `+` keep the operator color.
+
 ## [1.6.0] - 2026-10-16
 
 ### Added

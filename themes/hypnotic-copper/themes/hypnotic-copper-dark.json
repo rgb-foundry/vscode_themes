@@ -2463,6 +2463,14 @@
             }
         },
         {
+            "name": "Python word operators (and, or, not, in, is), also Starlark",
+            "scope": "keyword.operator.logical.python",
+            "settings": {
+                "fontStyle": "",
+                "foreground": "#CF8268"
+            }
+        },
+        {
             "name": "Punctuation",
             "scope": [
                 "punctuation"
