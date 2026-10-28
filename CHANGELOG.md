@@ -2,6 +2,16 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.6.2] - 2026-10-28
+
+### Changed
+
+- Made Dark one step darker, with one shared surface for the editor, Side Bar, and Activity Bar and a darker window frame.
+
+### Fixed
+
+- C++ word operators (such as `sizeof`, `delete`, and `static_cast`) now use the copper keyword color instead of the operator color.
+
 ## [1.6.1] - 2026-10-27
 
 ### Fixed

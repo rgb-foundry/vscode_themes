@@ -2,6 +2,16 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.6.2] - 2026-10-28
+
+### Changed
+
+- Dark is one step darker. The editor, Side Bar, and Activity Bar now share one surface, `#111519`, and the window frame drops to `#0A0D10`, so the floating panels stand out clearly against it. Focused list rows, unfocused selections, the unfocused window frame, unchanged diff regions, and notebook cell editors use `#1A1F24` so they stay visible on the darker surface.
+
+### Fixed
+
+- C++ word operators now use the copper keyword color: `sizeof`, `alignof`, `alignas`, `typeid`, `noexcept`, `delete`, the casts such as `static_cast`, and the alternative tokens such as `and`, `or`, and `not`. They had used the operator color. `new` was already copper.
+
 ## [1.6.1] - 2026-10-27
 
 ### Fixed

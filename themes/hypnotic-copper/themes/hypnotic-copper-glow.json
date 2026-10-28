@@ -2463,8 +2463,32 @@
             }
         },
         {
-            "name": "Python word operators (and, or, not, in, is), also Starlark",
-            "scope": "keyword.operator.logical.python",
+            "name": "Word operators: Python and Starlark and, or, not, in, is; C++ and, or, not, new, delete, sizeof, alignof, typeid, noexcept, casts",
+            "scope": [
+                "keyword.operator.logical.python",
+                "keyword.operator.and.cpp",
+                "keyword.operator.or.cpp",
+                "keyword.operator.not.cpp",
+                "keyword.operator.xor.cpp",
+                "keyword.operator.bitand.cpp",
+                "keyword.operator.bitor.cpp",
+                "keyword.operator.compl.cpp",
+                "keyword.operator.and_eq.cpp",
+                "keyword.operator.or_eq.cpp",
+                "keyword.operator.xor_eq.cpp",
+                "keyword.operator.not_eq.cpp",
+                "keyword.operator.new.cpp",
+                "keyword.operator.delete.cpp",
+                "keyword.operator.noexcept.cpp",
+                "keyword.operator.sizeof.cpp",
+                "keyword.operator.alignof.cpp",
+                "keyword.operator.alignas.cpp",
+                "keyword.operator.typeid.cpp",
+                "keyword.operator.sizeof.variadic.cpp",
+                "keyword.operator.delete.array.cpp",
+                "keyword.operator.cast",
+                "keyword.operator.sizeof.c"
+            ],
             "settings": {
                 "fontStyle": "",
                 "foreground": "#9A4A39"
