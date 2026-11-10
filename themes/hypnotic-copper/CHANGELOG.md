@@ -2,6 +2,30 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.7.0] - 2026-11-10
+
+### Added
+
+- Colors for the VS Code modern UI's connected editor tabs, panel tabs, Activity Bar items, and floating card surfaces, so they follow the palette instead of VS Code's defaults.
+- Hover colors for the solid error and warning chips in the Status Bar. Each chip turns one step darker on hover and keeps AA-contrast text, where it used to fall back to the general Status Bar hover color.
+- Markdown inline code now uses the namespace color (periwinkle `#9AB8EC` in Dark, steel blue `#4C5A9B` in Metal and Glow), so it stands apart from body text.
+- Chart lines use the palette's azure in place of VS Code's default blue, and chart axes and guides use the palette's grays.
+- A hero image of all three variants at the top of the README, and a short recommended setup: the VS Code modern UI and the free Noto Sans Mono font.
+
+### Changed
+
+- The active editor tab is marked with a single copper line along its bottom edge in every variant, with or without the modern UI, and its outline now shows, so the open file is easy to find, especially in Dark. Classic tabs no longer also draw a copper top line, which VS Code had added from the focus color.
+- The tab strip uses the window frame color (`#0A0D10` in Dark, `#C5C8D8` in Metal, `#ECECEC` in Glow), so the active tab stands out from the strip and joins the editor below it.
+- Hovering a tab now shows a soft tint and a neutral gray line instead of the copper line, so hover is no longer mistaken for the active tab.
+- Metal and Glow syntax colors are more saturated at the same lightness, so strings, types, namespaces, and functions are easier to tell apart while keeping WCAG AA contrast: strings `#4B6B05`, types `#06677F`, namespaces and constants `#4453B7`, and functions `#9536AA`. Brackets, symbol icons, the Source Control graph, and terminal cyan and magenta follow the same colors.
+- Dark's debugging Status Bar text is now the palette's darkest neutral, `#0A0D10`, for slightly higher contrast on the yellow bar.
+- The pinned-tab separator is now a neutral gray instead of copper, so it no longer forms an L-shaped copper corner with the active tab's line in the classic UI.
+
+### Fixed
+
+- Notebook cell editors were nearly invisible against the editor in all three variants; they now use a solid band one step off the editor.
+- In Glow, focused list rows, unchanged diff regions, and notebook cell editors were almost indistinguishable from white; they now use `#F2F2F2`.
+
 ## [1.6.2] - 2026-10-28
 
 ### Changed

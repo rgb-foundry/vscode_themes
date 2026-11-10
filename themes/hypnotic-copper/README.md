@@ -1,8 +1,21 @@
 # Hypnotic Copper
 
+![Hypnotic Copper Glow, Metal, and Dark side by side](images/hero_image.png)
+
 **Hypnotic Copper** is a family of carefully crafted Visual Studio Code themes with Metal, Glow, and Dark variants shaped by readable contrast and warm copper accents.
 
 Rather than relying on highly saturated rainbow syntax highlighting, Hypnotic Copper emphasizes readability through restrained color usage, semantic highlighting, and a cohesive palette. The result is a calm editing experience designed for long coding sessions.
+
+## Recommended setup
+
+* **Use the VS Code modern UI.** Hypnotic Copper is designed around it: connected editor tabs with a copper active-tab line, floating cards, and a calm window frame. It is on by default in recent versions of VS Code; you can check the `workbench.experimental.modernUI` setting. The classic UI is still supported.
+* **Try Noto Sans Mono.** The calm, even shapes of [Noto Sans Mono](https://fonts.google.com/noto/specimen/Noto+Sans+Mono) suit the palette well. It is free and open source under the SIL Open Font License. After installing it, set:
+
+  ```json
+  "editor.fontFamily": "'Noto Sans Mono', monospace"
+  ```
+
+  The screenshots use SF Mono, the macOS default.
 
 ## Why Hypnotic Copper?
 
@@ -89,10 +102,10 @@ Metal and Glow use identical hex values for every syntax role. Warnings and erro
 * ✓ Refined GitLens integration
 * ✓ Improved hover widgets
 * ✓ Six-level bracket pair colors that lead with copper and alternate hues, so adjacent levels never look alike
-* ✓ Designed for the VS Code modern UI: a unified neutral window frame, borderless floating cards, and a calm unfocused state
+* ✓ Designed for the VS Code modern UI: a unified neutral window frame, borderless floating cards, connected tabs with a copper active-tab line, and a calm unfocused state
 * ✓ A single burnished copper ladder shared by every copper accent
 * ✓ Copper-aware status bar, remote indicator, compact-item hover, and unfocused-window states
-* ✓ Solid error and warning chips in the status bar
+* ✓ Solid error and warning chips in the status bar, with matching hover states
 * ✓ Bright yellow debugging status bar that stays distinct from copper and warnings
 * ✓ Terminal colors drawn from the palette, so Bazel and other build tools read consistently: green info, amber debug, plum warnings, and red errors
 * ✓ Consistent theme color keys across variants

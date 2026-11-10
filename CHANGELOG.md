@@ -2,6 +2,26 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.7.0] - 2026-11-10
+
+### Added
+
+- Colors for the VS Code modern UI's connected tabs, Activity Bar items, and card surfaces.
+- Hover colors for the Status Bar's solid error and warning chips.
+- The namespace color for Markdown inline code, and palette colors for charts.
+- A hero image and a recommended setup section in the README.
+
+### Changed
+
+- A single copper bottom line and a visible outline mark the active editor tab, with or without the modern UI, on a tab strip in the window frame color.
+- More saturated syntax colors in Metal and Glow for strings, types, namespaces, and functions.
+- Tab hover is now a neutral tint and gray line, so it is no longer mistaken for the active tab.
+- A neutral gray pinned-tab separator instead of copper.
+
+### Fixed
+
+- Nearly invisible notebook cell editors in all variants, and faint focus rows and diff regions in Glow.
+
 ## [1.6.2] - 2026-10-28
 
 ### Changed
