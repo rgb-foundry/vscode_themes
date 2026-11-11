@@ -2,6 +2,14 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.7.1] - 2026-11-11
+
+### Changed
+
+- The active Activity Bar icon no longer sits on a background block. Dark had a strong gray block (`#343C44`) behind it; now the copper icon alone marks the active view in all three variants, matching how Metal and Glow already looked.
+- Glow now has a visible current-line highlight, a subtle neutral gray (`#F2F2F2`). It used to be white on the white editor, so the current line did not show at all.
+- Markdown block quotes use the comment color, with the `>` marker in copper, so quoted text reads as set apart from body text.
+
 ## [1.7.0] - 2026-11-10
 
 ### Added

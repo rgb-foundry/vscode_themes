@@ -381,7 +381,7 @@
         "minimapGutter.modifiedBackground": "#1A95D8",
         "modernActivityBar.background": "#111519",
         "modernActivityBar.inactiveBackground": "#111519",
-        "modernActivityBarItem.activeBackground": "#343C44",
+        "modernActivityBarItem.activeBackground": "#00000000",
         "modernActivityBarItem.activeForeground": "#CF8268",
         "modernActivityBarItem.hoverBackground": "#D6D3CF14",
         "modernActivityBarItem.hoverForeground": "#D6D3CF",
@@ -1464,7 +1464,8 @@
             "name": "Markup quote",
             "scope": "markup.quote",
             "settings": {
-                "fontStyle": ""
+                "fontStyle": "",
+                "foreground": "#87929D"
             }
         },
         {
@@ -2627,6 +2628,13 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#9AB8EC"
+            }
+        },
+        {
+            "name": "Markdown quote marker",
+            "scope": "punctuation.definition.quote.begin.markdown",
+            "settings": {
+                "foreground": "#CF8268"
             }
         }
     ],

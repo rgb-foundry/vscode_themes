@@ -2,6 +2,14 @@
 
 All notable changes to **Hypnotic Copper** will be documented in this file.
 
+## [1.7.1] - 2026-11-11
+
+### Changed
+
+- No background behind the active Activity Bar icon; the copper icon marks it in every variant.
+- A subtle current-line highlight in Glow.
+- Comment-colored Markdown block quotes with a copper `>` marker.
+
 ## [1.7.0] - 2026-11-10
 
 ### Added

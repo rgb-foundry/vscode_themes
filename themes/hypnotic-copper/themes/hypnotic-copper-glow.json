@@ -135,7 +135,7 @@
         "editor.inactiveSelectionBackground": "#9A4A391E",
         "editor.inlineValuesBackground": "#DADDE1",
         "editor.inlineValuesForeground": "#4B4F54",
-        "editor.lineHighlightBackground": "#FFFFFF05",
+        "editor.lineHighlightBackground": "#F2F2F2",
         "editor.lineHighlightBorder": "#9A4A3900",
         "editor.linkedEditingBackground": "#FFFFFF",
         "editor.rangeHighlightBackground": "#FFFFFF59",
@@ -381,7 +381,7 @@
         "minimapGutter.modifiedBackground": "#457BE2",
         "modernActivityBar.background": "#FAFAFA",
         "modernActivityBar.inactiveBackground": "#FAFAFA",
-        "modernActivityBarItem.activeBackground": "#FFFFFF1F",
+        "modernActivityBarItem.activeBackground": "#00000000",
         "modernActivityBarItem.activeForeground": "#9A4A39",
         "modernActivityBarItem.hoverBackground": "#1F232812",
         "modernActivityBarItem.hoverForeground": "#1F2328",
@@ -1464,7 +1464,8 @@
             "name": "Markup quote",
             "scope": "markup.quote",
             "settings": {
-                "fontStyle": ""
+                "fontStyle": "",
+                "foreground": "#6E737A"
             }
         },
         {
@@ -2627,6 +2628,13 @@
             "settings": {
                 "fontStyle": "",
                 "foreground": "#4453B7"
+            }
+        },
+        {
+            "name": "Markdown quote marker",
+            "scope": "punctuation.definition.quote.begin.markdown",
+            "settings": {
+                "foreground": "#9A4A39"
             }
         }
     ],
